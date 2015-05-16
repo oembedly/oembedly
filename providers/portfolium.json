@@ -1,0 +1,16 @@
+{
+	"name":          "Portfolium",
+	"description":   "e-portfolio",
+	"url":           "https://www.portfolium.com/",
+	"icon":          "http://oEmbed.ly/providers/portfolium.png",
+	"endpoints":     [
+		"https://api.portfolium.com/oembed/"
+	],
+	"url_structure": [
+		"#https?://(www.)?portfolium.com/entry/.*#i",
+	],
+	"parameters":    {
+		"format": "xml|json",
+		"url":    "",
+	}
+}
