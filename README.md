@@ -10,10 +10,10 @@ To add oEmbed provider, send us this info:
 	"description":   "Video hosting service",
 	"url":           "https://www.youtube.com/",
 	"icon":          "http://oEmbed.ly/providers/youtube.png",
-	"endpoints":     {
+	"endpoints":     [
 		"https://www.youtube.com/oembed/"
-	},
-	"url_structure": {
+	],
+	"url_structure": [
 		"#https?://(www.)?youtu.be/.*#i",
 		"#https?://(www.)?youtube.com/v/.*#i",
 		"#https?://(www.)?youtube.com/embed/.*#i",
@@ -21,7 +21,7 @@ To add oEmbed provider, send us this info:
 		"#https?://(www.)?youtube.com/watch.*#i",
 		"#https?://(www.)?youtube.com/profile.*#i"
 		"#https?://(www.)?youtube.com/playlist.*#i"
-	},
+	],
 	"parameters":    {
 		"format": "xml|json",
 		"url":    ""
