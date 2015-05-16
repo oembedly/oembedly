@@ -6,22 +6,26 @@ oEmbed.ly provides a detailed list of oEmbed providers, allowing everyone to add
 To add oEmbed provider, send us this info:
 ```
 {
-    "name":          "YouTube",
+	"name":          "YouTube",
 	"description":   "Video hosting service",
-    "url":           "https://www.youtube.com/",
-    "icon":          "https://www.youtube.com/yt/brand/media/image/YouTube-logo-full_color.png",
-    "endpoints":     {
+	"url":           "https://www.youtube.com/",
+	"icon":          "http://oEmbed.ly/providers/youtube.png",
+	"endpoints":     {
 		"https://www.youtube.com/oembed/"
+	},
+	"url_structure": {
+		"#https?://(www.)?youtu.be/.*#i",
+		"#https?://(www.)?youtube.com/v/.*#i",
+		"#https?://(www.)?youtube.com/embed/.*#i",
+		"#https?://(www.)?youtube.com/gif.*#i",
+		"#https?://(www.)?youtube.com/watch.*#i",
+		"#https?://(www.)?youtube.com/profile.*#i"
+		"#https?://(www.)?youtube.com/playlist.*#i"
+	},
+	"parameters":    {
+		"format": "xml|json",
+		"url":    ""
 	}
-    "url_structure": {
-        "#https?://(www.)?youtu.be/.*#i",
-        "#https?://(www.)?youtube.com/watch.*#i",
-        "#https?://(www.)?youtube.com/playlist.*#i"
-    }
-    "parameters":    {
-        "format": "xml|json",
-        "url":    ""
-    }
 }
 ```
 
