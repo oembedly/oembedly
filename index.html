@@ -1,103 +1,99 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>oEmbed.ly by oembedly</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">oEmbed.ly</h1>
-      <h2 class="project-tagline">oEmbed providers list</h2>
-      <a href="https://github.com/oembedly/oembedly" class="btn">View on GitHub</a>
-      <a href="https://github.com/oembedly/oembedly/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/oembedly/oembedly/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<head>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-oembedly" class="anchor" href="#welcome-to-oembedly" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to oEmbed.ly</h3>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>oEmbed.ly - oEmbed providers list</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css" media="screen">
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:400,700'>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/github-light.css" media="screen">
 
-<p>oEmbed.ly provides a detailed list of oEmbed providers, allowing everyone to add and promote online services supporting oembed.</p>
+	</head>
+<body>
 
-<h3>
-<a id="addg-oembed-provider" class="anchor" href="#addg-oembed-provider" aria-hidden="true"><span class="octicon octicon-link"></span></a>Addg oEmbed provider</h3>
+	<section class="page-header">
+		<h1 class="project-name animated fadeInDown">oEmbed.ly</h1>
+		<h2 class="project-tagline animated fadeIn">oEmbed providers list</h2>
+		<a href="https://github.com/oembedly/oembedly" class="btn animated fadeInUp">View on GitHub</a>
+		<a href="https://github.com/oembedly/oembedly/zipball/master" class="btn animated fadeInUp">Download .zip</a>
+		<a href="https://github.com/oembedly/oembedly/tarball/master" class="btn animated fadeInUp">Download .tar.gz</a>
+	</section>
 
-<p>To add oEmbed provider, send us this info:</p>
+	<section class="main-content">
 
-<pre><code>{
-    "name":           "YouTube",
-    "url":            "https://www.youtube.com/",
-    "icon":           "https://www.youtube.com/yt/brand/media/image/YouTube-logo-full_color.png",
-    "endpoint":       "https://www.youtube.com/oembed/",
-    "url_structure":  {
-        "#https?://(www.)?youtu.be/.*#i",
-        "#https?://(www.)?youtube.com/watch.*#i",
-        "#https?://(www.)?youtube.com/playlist.*#i"
-    }
-    "parameters":    {
-        "format": "xml|json",
-        "url":    "",
-    }
-}
-</code></pre>
+		<h3 class="animated bounceInLeft"><a id="welcome-to-oembedly" class="anchor" href="#welcome-to-oembedly" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to oEmbed.ly</h3>
 
-<h3>
-<a id="allowed-parameters" class="anchor" href="#allowed-parameters" aria-hidden="true"><span class="octicon octicon-link"></span></a>Allowed parameters</h3>
+		<p>oEmbed.ly provides a detailed list of oEmbed providers, allowing everyone to add and promote online services supporting <a href="http://www.oembed.com/">oEmbed</a>.</p>
 
-<table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Info</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>name</td>
-<td>Provider name.</td>
-</tr>
-<tr>
-<td>url</td>
-<td>Provider site URL.</td>
-</tr>
-<tr>
-<td>icon</td>
-<td>Provider icon. Size: 256x256. Format: png</td>
-</tr>
-<tr>
-<td>endpoint</td>
-<td>oEmbed API endpoint.</td>
-</tr>
-<tr>
-<td>url_structure</td>
-<td>A list of URL structures.</td>
-</tr>
-<tr>
-<td>parameters</td>
-<td>A list of allowed parameters. Some providers accept params like custom width, video autoplay ect.</td>
-</tr>
-</tbody>
-</table>
+		<h3 class="animated bounceInLeft"><a id="addg-oembed-provider" class="anchor" href="#addg-oembed-provider" aria-hidden="true"><span class="octicon octicon-link"></span></a>Add oEmbed provider</h3>
 
-<h3>
-<a id="approval-process" class="anchor" href="#approval-process" aria-hidden="true"><span class="octicon octicon-link"></span></a>Approval process</h3>
+		<p>To add oEmbed provider, send us this info:</p>
 
-<p>Each provider will be manually approved. Be patient.</p>
+		<pre><code>{
+	"name":           "YouTube",
+	"url":            "https://www.youtube.com/",
+	"icon":           "https://www.youtube.com/yt/brand/media/image/YouTube-logo-full_color.png",
+	"endpoint":       "https://www.youtube.com/oembed/",
+	"url_structure":  {
+		"#https?://(www.)?youtu.be/.*#i",
+		"#https?://(www.)?youtube.com/watch.*#i",
+		"#https?://(www.)?youtube.com/playlist.*#i"
+	}
+	"parameters":    {
+		"format": "xml|json",
+		"url":    "",
+	}
+}</code></pre>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/oembedly/oembedly">oEmbed.ly</a> is maintained by <a href="https://github.com/oembedly">oembedly</a>.</span>
+		<h3 class="animated bounceInLeft"><a id="allowed-parameters" class="anchor" href="#allowed-parameters" aria-hidden="true"><span class="octicon octicon-link"></span></a>Allowed parameters</h3>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+		<table>
+			<thead>
+				<tr>
+					<th>Parameter</th>
+					<th>Info</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>name</td>
+					<td>Provider name.</td>
+				</tr>
+				<tr>
+					<td>url</td>
+					<td>Provider site URL.</td>
+				</tr>
+				<tr>
+					<td>icon</td>
+					<td>Provider icon. Size: 256x256. Format: png</td>
+				</tr>
+				<tr>
+					<td>endpoint</td>
+					<td>oEmbed API endpoint.</td>
+				</tr>
+				<tr>
+					<td>url_structure</td>
+					<td>A list of URL structures.</td>
+				</tr>
+				<tr>
+					<td>parameters</td>
+					<td>A list of allowed parameters. Some providers accept params like custom width, video autoplay ect.</td>
+				</tr>
+			</tbody>
+		</table>
 
-    </section>
+		<h3 class="animated bounceInLeft"><a id="approval-process" class="anchor" href="#approval-process" aria-hidden="true"><span class="octicon octicon-link"></span></a>Approval process</h3>
 
-  
-  </body>
+		<p>Each provider will be manually approved. Be patient.</p>
+
+		<footer class="site-footer">
+			<span class="site-footer-owner"><a href="https://github.com/oembedly/oembedly">oEmbed.ly</a> is maintained by <a href="https://github.com/oembedly">oembedly</a>.</span>
+		</footer>
+
+	</section>
+
+</body>
 </html>
-
