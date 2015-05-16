@@ -1,0 +1,16 @@
+{
+	"name":          "Coub",
+	"description":   "Looped videos",
+	"url":           "https://coub.com/",
+	"icon":          "http://oEmbed.ly/providers/coub.png",
+	"endpoints":     [
+		"https://coub.com/api/oembed.json",
+		"https://coub.com/api/oembed.xml"
+	],
+	"url_structure": [
+		"#https?://(www.)?coub.com/view/.*#i",
+	],
+	"parameters":    {
+		"url":    ""
+	}
+}
