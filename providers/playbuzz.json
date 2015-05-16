@@ -1,0 +1,18 @@
+{
+	"name":          "Playbuzz",
+	"description":   "Playful content",
+	"url":           "https://www.playbuzz.com/",
+	"icon":          "http://oEmbed.ly/providers/playbuzz.png",
+	"endpoints":     [
+		"https://www.playbuzz.com/api/oembed/"
+	],
+	"url_structure": [
+		"#https?://(www.)?playbuzz.com/.*#i",
+	],
+	"parameters":    {
+		"format": "xml|json",
+		"url":    "",
+		"width":  "",
+		"height": ""
+	}
+}
