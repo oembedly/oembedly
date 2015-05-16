@@ -1,0 +1,15 @@
+{
+	"name":          "Sketchfab",
+	"description":   "3D models",
+	"url":           "https://www.sketchfab.com/",
+	"icon":          "http://oEmbed.ly/providers/sketchfab.png",
+	"endpoints":     [
+		"https://sketchfab.com/oembed/"
+	],
+	"url_structure": [
+		"#https?://(www.)?sketchfab.com/models/.*#i",
+	],
+	"parameters":    {
+		"url":    ""
+	}
+}
