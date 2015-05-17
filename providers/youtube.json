@@ -17,6 +17,7 @@
 	],
 	"parameters":    {
 		"format": "xml|json",
+		"scheme": "http|https",
 		"url":    ""
 	}
 }
