@@ -1,5 +1,5 @@
 # oEmbed.ly
-oEmbed.ly provides a detailed list of oEmbed providers, allowing everyone to add and promote online services supporting [oEmbed](http://oembed.com/).
+[oEmbed.ly](http://oEmbed.ly/) provides a detailed list of oEmbed providers, allowing everyone to add and promote online services supporting [oEmbed](http://oembed.com/).
 
 ## Add oEmbed provider
 
@@ -24,6 +24,7 @@ To add oEmbed provider, send us this info:
 	],
 	"parameters":    {
 		"format": "xml|json",
+		"scheme": "http|https",
 		"url":    ""
 	}
 }
