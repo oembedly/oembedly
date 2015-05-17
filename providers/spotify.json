@@ -1,0 +1,20 @@
+{
+	"id":            "spotify",
+	"name":          "Spotify",
+	"description":   "Spotify is a commercial music streaming service that provides content from record labels.",
+	"type":          "audio",
+	"url":           "https://www.spotify.com/",
+	"icon":          "http://oEmbed.ly/providers/spotify.png",
+	"endpoints":     [
+		"https://embed.spotify.com/oembed/"
+	],
+	"regex": [
+		"#https?://spoti.fi/.*#i",
+		"#https?://play.spotify.com/.*#i",
+		"#https?://open.spotify.com/.*#i"
+	],
+	"parameters":    {
+		"format": "xml|json",
+		"url":    ""
+	}
+}
