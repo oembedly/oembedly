@@ -1,0 +1,15 @@
+{
+	"name":          "Blip.tv",
+	"description":   "videos",
+	"url":           "http://blip.tv/",
+	"icon":          "http://oEmbed.ly/providers/blip.png",
+	"endpoints":     [
+		"http://blip.tv/oembed/"
+	],
+	"url_structure": [
+		"#https?://blip.tv/.*#i",
+	],
+	"parameters":    {
+		"url": ""
+	}
+}
