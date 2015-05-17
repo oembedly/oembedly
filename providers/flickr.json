@@ -1,0 +1,16 @@
+{
+	"name":          "Flickr",
+	"description":   "Photos",
+	"url":           "https://flickr.com/",
+	"icon":          "http://oEmbed.ly/providers/flickr.png",
+	"endpoints":     [
+		"https://www.flickr.com/services/oembed/"
+	],
+	"url_structure": [
+		"#https?://(www.)?flickr.com/.*#i",
+	],
+	"parameters":    {
+		"format": "xml|json",
+		"url":    ""
+	}
+}
