@@ -2,16 +2,34 @@
 	"name":          "vimeo",
 	"displayname":   "Vimeo",
 	"description":   "Looped videos",
-	"url":           "https://coub.com/",
-	"icon":          "http://oEmbed.ly/providers/coub.png",
+	"url":           "https://vimeo.com/",
+	"icon":          "http://oEmbed.ly/providers/vimeo.png",
 	"endpoints":     [
 		"https://vimeo.com/api/oembed.json",
 		"https://vimeo.com/api/oembed.xml"
 	],
 	"regex": [
 		"#https?://(.+.)?vimeo.com/.*#i",
+		"#https?://(.+.)?vimeo.com/m/#/.*#i",
+		"#https?://(.+.)?vimeo.com/channels/.*#i",
+		"#https?://(.+.)?vimeo.com/groups/*/videos/.*#i"
 	],
 	"parameters":    {
-		"url": ""
+		"url":       "",
+		"width":     "",
+		"maxwidth":  "",
+		"height":    "",
+		"maxheight": "",
+		"byline":    "",
+		"title":     "",
+		"portrait":  "",
+		"color":     "",
+		"callback":  "",
+		"autoplay":  "",
+		"loop":      "",
+		"autopause": "",
+		"xhtml":     "",
+		"api":       "",
+		"player_id": "",
 	}
 }
