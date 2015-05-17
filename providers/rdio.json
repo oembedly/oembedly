@@ -9,6 +9,7 @@
 		"http://www.rdio.com/api/oembed/"
 	],
 	"regex": [
+		"#https?://rd.io/x/.*#i"
 		"#https?://(www.)?rdio.com/.*#i",
 		"#https?://(www.)?rdio.com/artist/*/album/.*#i"
 	],
