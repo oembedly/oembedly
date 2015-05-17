@@ -1,0 +1,16 @@
+{
+	"name":          "Dailymotion",
+	"description":   "Videos",
+	"url":           "http://www.dailymotion.com/",
+	"icon":          "http://oEmbed.ly/providers/dailymotion.png",
+	"endpoints":     [
+		"http://www.dailymotion.com/services/oembed"
+	],
+	"url_structure": [
+		"#https?://(www.)?dailymotion.com/.*#i"
+	],
+	"parameters":    {
+		"format": "xml|json",
+		"url": ""
+	}
+}
