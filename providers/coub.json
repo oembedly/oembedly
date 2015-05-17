@@ -1,6 +1,6 @@
 {
-	"name":          "coub",
-	"displayname":   "Coub",
+	"id":            "coub",
+	"name":          "Coub",
 	"description":   "Coub is a video sharing website that allows users to create and share looped videos up to ten seconds long.",
 	"type":          "video",
 	"url":           "https://coub.com/",

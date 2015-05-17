@@ -1,6 +1,6 @@
 {
-	"name":          "flickr",
-	"displayname":   "Flickr",
+	"id":            "flickr",
+	"name":          "Flickr",
 	"description":   "Flickr is an image and video hosting website, web services suite, and online community.",
 	"type":          "photo",
 	"url":           "https://flickr.com/",

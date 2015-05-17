@@ -1,6 +1,6 @@
 {
-	"name":          "twitter",
-	"displayname":   "Twitter",
+	"id":            "twitter",
+	"name":          "Twitter",
 	"description":   "Twitter is an online social networking service.",
 	"type":          "rich",
 	"url":           "https://twitter.com/",

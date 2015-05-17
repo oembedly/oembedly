@@ -1,6 +1,6 @@
 {
-	"name":          "smugmug",
-	"displayname":   "SmugMug",
+	"id":            "smugmug",
+	"name":          "SmugMug",
 	"description":   "SmugMug is a paid photo-sharing website and image hosting service.",
 	"type":          "photo",
 	"url":           "https://www.smugmug.com/",

@@ -1,6 +1,6 @@
 {
-	"name":          "portfolium",
-	"displayname":   "Portfolium",
+	"id":            "portfolium",
+	"name":          "Portfolium",
 	"description":   "Portfolium is a social portfolio network and showcase connecting young, eager talent with opportunity.",
 	"type":          "rich",
 	"url":           "https://www.portfolium.com/",

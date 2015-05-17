@@ -6,8 +6,8 @@
 To add oEmbed provider, send us this info:
 ```
 {
-	"name":          "youtube",
-	"displayname":   "YouTube",
+	"id":            "youtube",
+	"name":          "YouTube",
 	"description":   "YouTube is the world's most popular online video community.",
 	"type":          "video",
 	"url":           "https://www.youtube.com/",
@@ -36,8 +36,8 @@ To add oEmbed provider, send us this info:
 
 Parameter     | Info
 ------------- | -----
-name          | Provider unique name.
-displayname   | Provider display name.
+id            | Provider unique id.
+name          | Provider name.
 description   | Provider description.
 type          | Provider content type. Types: link, photo, video, audio, or rich.
 url           | Provider site URL.

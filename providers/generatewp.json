@@ -1,6 +1,6 @@
 {
-	"name":          "generatewp",
-	"displayname":   "GenerateWP",
+	"id":            "generatewp",
+	"name":          "GenerateWP",
 	"description":   "GenerateWP provides user friendly tools for WordPress developers that reduce development time and generate high quality code.",
 	"type":          "rich",
 	"url":           "http://GenerateWP.com/",

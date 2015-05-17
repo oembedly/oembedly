@@ -1,6 +1,6 @@
 {
-	"name":          "sketchfab",
-	"displayname":   "Sketchfab",
+	"id":            "sketchfab",
+	"name":          "Sketchfab",
 	"description":   "Sketchfab is a website used to display and share 3D content online.",
 	"type":          "rich",
 	"url":           "https://www.sketchfab.com/",

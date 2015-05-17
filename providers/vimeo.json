@@ -1,6 +1,6 @@
 {
-	"name":          "vimeo",
-	"displayname":   "Vimeo",
+	"id":            "vimeo",
+	"name":          "Vimeo",
 	"description":   "Vimeo is a cleanly-designed video sharing website.",
 	"type":          "video",
 	"url":           "https://vimeo.com/",

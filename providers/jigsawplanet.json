@@ -1,6 +1,6 @@
 {
-	"name":          "jigsawplanet",
-	"displayname":   "Jigsaw Planet",
+	"id":            "jigsawplanet",
+	"name":          "Jigsaw Planet",
 	"description":   "Jigsaw Planet is an ideal place to create and playing free online jigsaw puzzles.",
 	"type":          "rich",
 	"url":           "https://jigsawplanet.com/",

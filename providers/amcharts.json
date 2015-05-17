@@ -1,4 +1,5 @@
 {
+	"id":            "amcharts",
 	"name":          "amCharts",
 	"description":   "Interactive charts and maps",
 	"url":           "http://live.amcharts.com/",

@@ -1,6 +1,6 @@
 {
-	"name":          "hulu",
-	"displayname":   "Hulu",
+	"id":            "hulu",
+	"name":          "Hulu",
 	"description":   "Hulu is an online video service that offers hit TV shows, movies and clips.",
 	"type":          "video",
 	"url":           "https://www.hulu.com/",

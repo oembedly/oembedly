@@ -1,6 +1,6 @@
 {
-	"name":          "youtube",
-	"displayname":   "YouTube",
+	"id":            "youtube",
+	"name":          "YouTube",
 	"description":   "YouTube is the world's most popular online video community.",
 	"type":          "video",
 	"url":           "https://www.youtube.com/",
