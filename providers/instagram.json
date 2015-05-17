@@ -2,7 +2,7 @@
 	"id":            "instagram",
 	"name":          "Instagram",
 	"description":   "Instagram is an online mobile photo-sharing, video-sharing and social networking service.",
-	"type":          "video",
+	"type":          "rich",
 	"url":           "https://instagram.com/",
 	"icon":          "http://oEmbed.ly/providers/instagram.png",
 	"endpoints":     [
