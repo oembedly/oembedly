@@ -7,7 +7,8 @@
 		"http://www.dailymotion.com/services/oembed"
 	],
 	"url_structure": [
-		"#https?://(www.)?dailymotion.com/.*#i"
+		"#https?://(www.)?dailymotion.com/.*#i",
+		"#https?://(www.)?dai.ly/.*#i"
 	],
 	"parameters":    {
 		"format": "xml|json",
