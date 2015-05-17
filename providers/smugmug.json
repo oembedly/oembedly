@@ -1,0 +1,16 @@
+{
+	"name":          "SmugMug",
+	"description":   "Photos",
+	"url":           "https://www.smugmug.com/",
+	"icon":          "http://oEmbed.ly/providers/smugmug.png",
+	"endpoints":     [
+		"https://api.smugmug.com/services/oembed/"
+	],
+	"url_structure": [
+		"#https?://(.+.)?smugmug.com/.*#i"
+	],
+	"parameters":    {
+		"format": "xml|json",
+		"url": ""
+	}
+}
