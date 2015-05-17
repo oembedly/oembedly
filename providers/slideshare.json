@@ -2,7 +2,7 @@
 	"id":            "slideshare",
 	"name":          "SlideShare",
 	"description":   "SlideShare is a web based slide hosting service.",
-	"type":          "video",
+	"type":          "rich",
 	"url":           "https://www.slideshare.com/",
 	"icon":          "http://oEmbed.ly/providers/slideshare.png",
 	"endpoints":     [
