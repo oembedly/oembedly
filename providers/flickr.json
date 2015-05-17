@@ -8,6 +8,7 @@
 	],
 	"url_structure": [
 		"#https?://(www.)?flickr.com/.*#i",
+		"#https?://flic.kr/.*#i"
 	],
 	"parameters":    {
 		"format": "xml|json",
