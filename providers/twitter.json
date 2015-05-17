@@ -1,0 +1,25 @@
+{
+	"name":          "Twitter",
+	"description":   "Videos",
+	"url":           "https://twitter.com/",
+	"icon":          "http://oEmbed.ly/providers/twitter.png",
+	"endpoints":     [
+		"https://api.twitter.com/1/statuses/oembed.json",
+		"https://api.twitter.com/1/statuses/oembed.xml"
+	],
+	"url_structure": [
+		"#https?://(www.)?twitter.com/.+?/status(es)?/.*#i"
+	],
+	"parameters":    {
+		"url":         "",
+		"id":          "",
+		"align":       "left|right|center",
+		"maxwidth":    "",
+		"related":     "",
+		"hide_media":  "true|false",
+		"hide_thread": "true|false",
+		"omit_script": "true|false",
+		"hide_tweet":  "true|false",
+		"widget_type": ""
+	}
+}
