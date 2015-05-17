@@ -1,7 +1,8 @@
 {
 	"name":          "generatewp",
 	"displayname":   "GenerateWP",
-	"description":   "WordPress snippets",
+	"description":   "GenerateWP provides user friendly tools for WordPress developers that reduce development time and generate high quality code.",
+	"type":          "rich",
 	"url":           "http://GenerateWP.com/",
 	"icon":          "http://oEmbed.ly/providers/generatewp.png",
 	"endpoints":     [

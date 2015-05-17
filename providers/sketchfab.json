@@ -1,7 +1,8 @@
 {
 	"name":          "sketchfab",
 	"displayname":   "Sketchfab",
-	"description":   "3D models",
+	"description":   "Sketchfab is a website used to display and share 3D content online.",
+	"type":          "rich",
 	"url":           "https://www.sketchfab.com/",
 	"icon":          "http://oEmbed.ly/providers/sketchfab.png",
 	"endpoints":     [

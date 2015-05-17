@@ -1,7 +1,8 @@
 {
 	"name":          "blip",
 	"displayname":   "Blip.tv",
-	"description":   "videos",
+	"description":   "Blip is a media platform for web series content and also offers a dashboard for producers of original web series to distribute and monetize their productions.",
+	"type":          "video",
 	"url":           "http://blip.tv/",
 	"icon":          "http://oEmbed.ly/providers/blip.png",
 	"endpoints":     [

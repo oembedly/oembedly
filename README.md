@@ -8,7 +8,8 @@ To add oEmbed provider, send us this info:
 {
 	"name":          "youtube",
 	"displayname":   "YouTube",
-	"description":   "Video hosting service",
+	"description":   "YouTube is the world's most popular online video community.",
+	"type":          "video",
 	"url":           "https://www.youtube.com/",
 	"icon":          "http://oEmbed.ly/providers/youtube.png",
 	"endpoints":     [
@@ -38,6 +39,7 @@ Parameter     | Info
 name          | Provider unique name.
 displayname   | Provider display name.
 description   | Provider description.
+type          | Provider content type. Types: link, photo, video, audio, or rich.
 url           | Provider site URL.
 icon          | Provider icon. Size: 256x256. Format: png
 endpoints     | A list of oEmbed API endpoints.

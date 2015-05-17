@@ -1,7 +1,8 @@
 {
 	"name":          "portfolium",
 	"displayname":   "Portfolium",
-	"description":   "e-portfolio",
+	"description":   "Portfolium is a social portfolio network and showcase connecting young, eager talent with opportunity.",
+	"type":          "rich",
 	"url":           "https://www.portfolium.com/",
 	"icon":          "http://oEmbed.ly/providers/portfolium.png",
 	"endpoints":     [

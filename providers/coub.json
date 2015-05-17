@@ -1,7 +1,8 @@
 {
 	"name":          "coub",
 	"displayname":   "Coub",
-	"description":   "Looped videos",
+	"description":   "Coub is a video sharing website that allows users to create and share looped videos up to ten seconds long.",
+	"type":          "video",
 	"url":           "https://coub.com/",
 	"icon":          "http://oEmbed.ly/providers/coub.png",
 	"endpoints":     [

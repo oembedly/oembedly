@@ -1,7 +1,8 @@
 {
 	"name":          "playbuzz",
 	"displayname":   "Playbuzz",
-	"description":   "Playful content",
+	"description":   "Playbuzz is an online content publishing platform used to generate content in formats generally associated with viral media.",
+	"type":          "rich",
 	"url":           "https://www.playbuzz.com/",
 	"icon":          "http://oEmbed.ly/providers/playbuzz.png",
 	"endpoints":     [

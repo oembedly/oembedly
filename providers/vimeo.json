@@ -1,7 +1,8 @@
 {
 	"name":          "vimeo",
 	"displayname":   "Vimeo",
-	"description":   "Looped videos",
+	"description":   "Vimeo is a cleanly-designed video sharing website.",
+	"type":          "video",
 	"url":           "https://vimeo.com/",
 	"icon":          "http://oEmbed.ly/providers/vimeo.png",
 	"endpoints":     [

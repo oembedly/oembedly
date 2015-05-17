@@ -1,7 +1,8 @@
 {
 	"name":          "dailymotion",
 	"displayname":   "Dailymotion",
-	"description":   "Videos",
+	"description":   "Dailymotion is a video-sharing website on which users can upload, watch and share videos.",
+	"type":          "video",
 	"url":           "http://www.dailymotion.com/",
 	"icon":          "http://oEmbed.ly/providers/dailymotion.png",
 	"endpoints":     [

@@ -1,7 +1,8 @@
 {
 	"name":          "youtube",
 	"displayname":   "YouTube",
-	"description":   "Video hosting service",
+	"description":   "YouTube is the world's most popular online video community.",
+	"type":          "video",
 	"url":           "https://www.youtube.com/",
 	"icon":          "http://oEmbed.ly/providers/youtube.png",
 	"endpoints":     [
