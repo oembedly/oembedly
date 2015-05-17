@@ -6,7 +6,7 @@
 	"endpoints":     [
 		"https://www.youtube.com/oembed/"
 	],
-	"url_structure": [
+	"regex": [
 		"#https?://(www.)?youtu.be/.*#i",
 		"#https?://(www.)?youtube.com/v/.*#i",
 		"#https?://(www.)?youtube.com/embed/.*#i",

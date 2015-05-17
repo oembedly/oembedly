@@ -6,7 +6,7 @@
 	"endpoints":     [
 		"https://www.jigsawplanet.com/api/oembed/game/"
 	],
-	"url_structure": [
+	"regex": [
 		"#https?://(www.)?jigsawplanet.com/.*#i",
 	],
 	"parameters":    {

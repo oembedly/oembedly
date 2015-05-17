@@ -6,7 +6,7 @@
 	"endpoints":     [
 		"https://www.playbuzz.com/api/oembed/"
 	],
-	"url_structure": [
+	"regex": [
 		"#https?://(www.)?playbuzz.com/.*#i",
 	],
 	"parameters":    {

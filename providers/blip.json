@@ -6,7 +6,7 @@
 	"endpoints":     [
 		"http://blip.tv/oembed/"
 	],
-	"url_structure": [
+	"regex": [
 		"#https?://blip.tv/.*#i",
 	],
 	"parameters":    {

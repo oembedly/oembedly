@@ -6,7 +6,7 @@
 	"endpoints":     [
 		"https://api.portfolium.com/oembed/"
 	],
-	"url_structure": [
+	"regex": [
 		"#https?://(www.)?portfolium.com/entry/.*#i",
 	],
 	"parameters":    {

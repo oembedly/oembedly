@@ -13,7 +13,7 @@ To add oEmbed provider, send us this info:
 	"endpoints":     [
 		"https://www.youtube.com/oembed/"
 	],
-	"url_structure": [
+	"regex": [
 		"#https?://(www.)?youtu.be/.*#i",
 		"#https?://(www.)?youtube.com/v/.*#i",
 		"#https?://(www.)?youtube.com/embed/.*#i",
@@ -39,7 +39,7 @@ description   | Provider description.
 url           | Provider site URL.
 icon          | Provider icon. Size: 256x256. Format: png
 endpoints     | A list of oEmbed API endpoints.
-url_structure | A list of URL structures.
+regex         | A list of URL structures.
 parameters    | A list of allowed parameters. Some providers accept params like custom width, video autoplay ect.
 
 ## Approval process

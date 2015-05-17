@@ -6,7 +6,7 @@
 	"endpoints":     [
 		"https://www.flickr.com/services/oembed/"
 	],
-	"url_structure": [
+	"regex": [
 		"#https?://(www.)?flickr.com/.*#i",
 		"#https?://flic.kr/.*#i"
 	],

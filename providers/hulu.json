@@ -7,7 +7,7 @@
 		"http://www.hulu.com/api/oembed.json",
 		"http://www.hulu.com/api/oembed.xml"
 	],
-	"url_structure": [
+	"regex": [
 		"#https?://(www.)?hulu.com/watch/.*#i"
 	],
 	"parameters":    {

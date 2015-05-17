@@ -6,7 +6,7 @@
 	"endpoints":     [
 		"https://api.smugmug.com/services/oembed/"
 	],
-	"url_structure": [
+	"regex": [
 		"#https?://(.+.)?smugmug.com/.*#i"
 	],
 	"parameters":    {

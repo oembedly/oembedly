@@ -7,7 +7,7 @@
 		"https://vimeo.com/api/oembed.json",
 		"https://vimeo.com/api/oembed.xml"
 	],
-	"url_structure": [
+	"regex": [
 		"#https?://(.+.)?vimeo.com/.*#i",
 	],
 	"parameters":    {

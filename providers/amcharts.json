@@ -6,7 +6,7 @@
 	"endpoints":     [
 		"http://live.amcharts.com//oembed/"
 	],
-	"url_structure": [
+	"regex": [
 		"#https?://live.amcharts.com/.*#i",
 	],
 	"parameters":    {

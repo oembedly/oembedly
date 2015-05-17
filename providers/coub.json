@@ -7,7 +7,7 @@
 		"https://coub.com/api/oembed.json",
 		"https://coub.com/api/oembed.xml"
 	],
-	"url_structure": [
+	"regex": [
 		"#https?://(www.)?coub.com/view/.*#i",
 	],
 	"parameters":    {

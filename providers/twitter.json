@@ -7,7 +7,7 @@
 		"https://api.twitter.com/1/statuses/oembed.json",
 		"https://api.twitter.com/1/statuses/oembed.xml"
 	],
-	"url_structure": [
+	"regex": [
 		"#https?://(www.)?twitter.com/.+?/status(es)?/.*#i"
 	],
 	"parameters":    {
