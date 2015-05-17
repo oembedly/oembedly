@@ -1,0 +1,20 @@
+{
+	"id":            "photobucket",
+	"name":          "Photobucket",
+	"description":   "Photobucket is an image and video hosting website, and online community dedicated to preserving and sharing the entire photo and video lifecycle.",
+	"type":          "photo",
+	"url":           "http://www.photobucket.com/",
+	"icon":          "http://oEmbed.ly/providers/photobucket.png",
+	"endpoints":     [
+		"http://photobucket.com/oembed"
+	],
+	"regex": [
+		"http://i*.photobucket.com/albums/*",
+		"http://s*.photobucket.com/albums/*",
+		"http://gi*.photobucket.com/groups/*"
+		"http://media.photobucket.com/image/*"
+	],
+	"parameters":    {
+		"url":    ""
+	}
+}
