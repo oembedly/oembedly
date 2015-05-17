@@ -1,0 +1,18 @@
+{
+	"id":            "soundcloud",
+	"name":          "SoundCloud",
+	"description":   "SoundCloud is an online audio distribution platform that enables its users to upload, record, promote, and share their originally-created sounds.",
+	"type":          "audio",
+	"url":           "https://soundcloud.com/",
+	"icon":          "http://oEmbed.ly/providers/soundcloud.png",
+	"endpoints":     [
+		"http://soundcloud.com/oembed"
+	],
+	"regex": [
+		"#https?://(www.)?soundcloud.com/.*#i"
+	],
+	"parameters":    {
+		"format": "xml|json",
+		"url":    ""
+	}
+}
