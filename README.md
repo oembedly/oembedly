@@ -1,9 +1,14 @@
 # oEmbed.ly
 [oEmbed.ly](http://oEmbed.ly/) provides a detailed list of oEmbed providers, allowing everyone to add and promote online services supporting [oEmbed](http://oembed.com/).
 
-## Add oEmbed provider
+## Add oEmbed Provider
 
-To add oEmbed provider, send us this info:
+To add oEmbed provider we need two files:
+
+* providers/**{provider}**.png
+* providers/**{provider}**.json
+
+json example for YouTube:
 ```
 {
 	"id":            "youtube",
@@ -32,7 +37,7 @@ To add oEmbed provider, send us this info:
 }
 ```
 
-## Allowed parameters
+## Allowed Parameters
 
 Parameter     | Info
 ------------- | -----
@@ -46,6 +51,6 @@ endpoints     | A list of oEmbed API endpoints.
 regex         | A list of URL structures.
 parameters    | A list of allowed parameters. Some providers accept params like custom width, video autoplay ect.
 
-## Approval process
+## Approval Process
 
 Each provider will be manually approved. Be patient.
