@@ -1,5 +1,6 @@
 {
-	"name":          "YouTube",
+	"name":          "youtube",
+	"displayname":   "YouTube",
 	"description":   "Video hosting service",
 	"url":           "https://www.youtube.com/",
 	"icon":          "http://oEmbed.ly/providers/youtube.png",

@@ -1,5 +1,6 @@
 {
-	"name":          "Playbuzz",
+	"name":          "playbuzz",
+	"displayname":   "Playbuzz",
 	"description":   "Playful content",
 	"url":           "https://www.playbuzz.com/",
 	"icon":          "http://oEmbed.ly/providers/playbuzz.png",

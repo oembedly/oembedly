@@ -1,5 +1,6 @@
 {
-	"name":          "Dailymotion",
+	"name":          "dailymotion",
+	"displayname":   "Dailymotion",
 	"description":   "Videos",
 	"url":           "http://www.dailymotion.com/",
 	"icon":          "http://oEmbed.ly/providers/dailymotion.png",

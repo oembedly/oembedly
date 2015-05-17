@@ -1,5 +1,6 @@
 {
-	"name":          "SmugMug",
+	"name":          "smugmug",
+	"displayname":   "SmugMug",
 	"description":   "Photos",
 	"url":           "https://www.smugmug.com/",
 	"icon":          "http://oEmbed.ly/providers/smugmug.png",

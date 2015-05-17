@@ -1,5 +1,6 @@
 {
-	"name":          "Coub",
+	"name":          "vimeo",
+	"displayname":   "Vimeo",
 	"description":   "Looped videos",
 	"url":           "https://coub.com/",
 	"icon":          "http://oEmbed.ly/providers/coub.png",

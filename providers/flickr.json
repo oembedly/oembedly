@@ -1,5 +1,6 @@
 {
-	"name":          "Flickr",
+	"name":          "flickr",
+	"displayname":   "Flickr",
 	"description":   "Photos",
 	"url":           "https://flickr.com/",
 	"icon":          "http://oEmbed.ly/providers/flickr.png",

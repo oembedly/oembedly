@@ -1,5 +1,6 @@
 {
-	"name":          "Jigsaw Planet",
+	"name":          "jigsawplanet",
+	"displayname":   "Jigsaw Planet",
 	"description":   "Puzzles",
 	"url":           "https://jigsawplanet.com/",
 	"icon":          "http://oEmbed.ly/providers/jigsawplanet.png",

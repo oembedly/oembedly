@@ -1,5 +1,6 @@
 {
-	"name":          "Blip.tv",
+	"name":          "blip",
+	"displayname":   "Blip.tv",
 	"description":   "videos",
 	"url":           "http://blip.tv/",
 	"icon":          "http://oEmbed.ly/providers/blip.png",

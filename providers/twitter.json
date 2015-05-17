@@ -1,5 +1,6 @@
 {
-	"name":          "Twitter",
+	"name":          "twitter",
+	"displayname":   "Twitter",
 	"description":   "Videos",
 	"url":           "https://twitter.com/",
 	"icon":          "http://oEmbed.ly/providers/twitter.png",

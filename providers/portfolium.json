@@ -1,5 +1,6 @@
 {
-	"name":          "Portfolium",
+	"name":          "portfolium",
+	"displayname":   "Portfolium",
 	"description":   "e-portfolio",
 	"url":           "https://www.portfolium.com/",
 	"icon":          "http://oEmbed.ly/providers/portfolium.png",

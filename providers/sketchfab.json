@@ -1,5 +1,6 @@
 {
-	"name":          "Sketchfab",
+	"name":          "sketchfab",
+	"displayname":   "Sketchfab",
 	"description":   "3D models",
 	"url":           "https://www.sketchfab.com/",
 	"icon":          "http://oEmbed.ly/providers/sketchfab.png",

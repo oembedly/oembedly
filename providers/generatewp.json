@@ -1,5 +1,6 @@
 {
-	"name":          "GenerateWP",
+	"name":          "generatewp",
+	"displayname":   "GenerateWP",
 	"description":   "WordPress snippets",
 	"url":           "http://GenerateWP.com/",
 	"icon":          "http://oEmbed.ly/providers/generatewp.png",

@@ -1,5 +1,6 @@
 {
-	"name":          "Hulu",
+	"name":          "hulu",
+	"displayname":   "Hulu",
 	"description":   "Videos",
 	"url":           "https://www.hulu.com/",
 	"icon":          "http://oEmbed.ly/providers/hulu.png",

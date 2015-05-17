@@ -6,7 +6,8 @@
 To add oEmbed provider, send us this info:
 ```
 {
-	"name":          "YouTube",
+	"name":          "youtube",
+	"displayname":   "YouTube",
 	"description":   "Video hosting service",
 	"url":           "https://www.youtube.com/",
 	"icon":          "http://oEmbed.ly/providers/youtube.png",
@@ -34,7 +35,8 @@ To add oEmbed provider, send us this info:
 
 Parameter     | Info
 ------------- | -----
-name          | Provider name.
+name          | Provider unique name.
+displayname   | Provider display name.
 description   | Provider description.
 url           | Provider site URL.
 icon          | Provider icon. Size: 256x256. Format: png
