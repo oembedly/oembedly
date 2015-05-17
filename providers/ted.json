@@ -1,0 +1,19 @@
+{
+	"id":            "ted",
+	"name":          "TED",
+	"description":   "TED is a global nonprofit set of conferences run under the slogan 'Ideas Worth Spreading'.",
+	"type":          "video",
+	"url":           "https://www.ted.com/",
+	"icon":          "http://oEmbed.ly/providers/ted.png",
+	"endpoints":     [
+		"http://www.ted.com/talks/oembed.json",
+		"http://www.ted.com/talks/oembed.xml"
+	],
+	"regex": [
+		"#https?://(www.|embed.)?ted.com/talks/.*#i",
+		"#https?://(www.|embed.)?ted.com/talks/lang/.*#i"
+	],
+	"parameters":    {
+		"url":    ""
+	}
+}
