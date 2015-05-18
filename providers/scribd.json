@@ -1,0 +1,19 @@
+{
+	"id":            "scribd",
+	"name":          "Scribd",
+	"description":   "Scribd is a digital library, featuring an ebook, audiobook and comic book subscription service.",
+	"type":          "rich",
+	"url":           "http://www.scribd.com/",
+	"icon":          "http://oEmbed.ly/providers/scribd.png",
+	"endpoints":     [
+		"https://www.scribd.com/services/oembed/"
+	],
+	"regex": [
+		"#https?://(www.)?scribd.com/doc/.*#i",
+		"#https?://(www.)?scribd.com/mobile/documents/.*#i"
+	],
+	"parameters":    {
+		"format": "xml|json",
+		"url":    ""
+	}
+}
