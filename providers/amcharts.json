@@ -2,6 +2,7 @@
 	"id":          "amcharts",
 	"name":        "amCharts",
 	"description": "Interactive charts and maps",
+	"type":        "rich",
 	"url":         "http://live.amcharts.com/",
 	"icon":        "http://oEmbed.ly/providers/amcharts.png",
 	"endpoints": [
