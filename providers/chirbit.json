@@ -1,0 +1,19 @@
+{
+	"id":          "chirbit",
+	"name":        "Chirbit",
+	"description": "Chirbit is a social audio platform that enables audio sharing.",
+	"type":        "rich",
+	"url":         "http://www.chirbit.com/",
+	"icon":        "http://oEmbed.ly/providers/chirbit.png",
+	"endpoints": [
+		"http://chirb.it/oembed.json",
+		"http://chirb.it/oembed.xml"
+	],
+	"regex": [
+		"#https?://(www.)?chirb.it//.*#i",
+		"#https?://(www.)?chirbit.com/.*#i"
+	],
+	"parameters": {
+		"url": ""
+	}
+}
