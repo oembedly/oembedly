@@ -3,7 +3,7 @@
 
 ## Add oEmbed Provider
 
-To add oEmbed provider we need two files:
+To add new oEmbed provider we need two files:
 
 * providers/**{provider}**.png
 * providers/**{provider}**.json
