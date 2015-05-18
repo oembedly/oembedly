@@ -11,13 +11,13 @@ To add oEmbed provider we need two files:
 json example for YouTube:
 ```
 {
-	"id":            "youtube",
-	"name":          "YouTube",
-	"description":   "YouTube is the world's most popular online video community.",
-	"type":          "video",
-	"url":           "https://www.youtube.com/",
-	"icon":          "http://oEmbed.ly/providers/youtube.png",
-	"endpoints":     [
+	"id":          "youtube",
+	"name":        "YouTube",
+	"description": "YouTube is the world's most popular online video community.",
+	"type":        "video",
+	"url":         "https://www.youtube.com/",
+	"icon":        "http://oEmbed.ly/providers/youtube.png",
+	"endpoints": [
 		"https://www.youtube.com/oembed/"
 	],
 	"regex": [
@@ -26,13 +26,13 @@ json example for YouTube:
 		"#https?://(www.)?youtube.com/embed/.*#i",
 		"#https?://(www.)?youtube.com/gif.*#i",
 		"#https?://(www.)?youtube.com/watch.*#i",
-		"#https?://(www.)?youtube.com/profile.*#i"
+		"#https?://(www.)?youtube.com/profile.*#i",
 		"#https?://(www.)?youtube.com/playlist.*#i"
 	],
-	"parameters":    {
+	"parameters": {
 		"format": "xml|json",
 		"scheme": "http|https",
-		"url":    ""
+		"url": ""
 	}
 }
 ```
