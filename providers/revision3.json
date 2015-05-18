@@ -1,0 +1,17 @@
+{
+	"id":          "revision3",
+	"name":        "Revision3",
+	"description": "Revision3 is a multi-channel internet television network.",
+	"url":         "http://revision3.com/",
+	"icon":        "http://oEmbed.ly/providers/revision3.png",
+	"endpoints": [
+		"http://revision3.com/api/oembed/"
+	],
+	"regex": [
+		"#https?://(www.)?revision3.com/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
