@@ -1,0 +1,18 @@
+{
+	"id":            "animoto",
+	"name":          "Animoto",
+	"description":   "Animoto is a cloud-based video creation service that produces video from photos, video clips, and music into video slideshows.",
+	"type":          "video",
+	"url":           "https://www.animoto.com/",
+	"icon":          "http://oEmbed.ly/providers/animoto.png",
+	"endpoints":     [
+		"http://animoto.com/oembeds/create",
+	],
+	"regex": [
+		"'#https?://(www.)?animoto.com/play/.*#i",
+		"'#https?://(www.)?video214.com/play/.*#i"
+	],
+	"parameters": {
+		"url": ""
+	}
+}
