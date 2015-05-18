@@ -1,0 +1,20 @@
+{
+	"id":          "polleverywhere",
+	"name":        "Poll Everywhere",
+	"description": "Poll Everywhere is an online service for classroom response and audience response systems.",
+	"type":        "rich",
+	"url":         "http://www.polleverywhere.com/",
+	"icon":        "http://oEmbed.ly/providers/polleverywhere.png",
+	"endpoints": [
+		"http://www.polleverywhere.com/services/oembed"
+	],
+	"regex": [
+		"#https?://(www.)?polleverywhere.com/polls/.*#i",
+		"#https?://(www.)?polleverywhere.com/multiple_choice_polls/.*#i",
+		"#https?://(www.)?polleverywhere.com/free_text_polls/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
