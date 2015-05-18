@@ -1,18 +1,18 @@
 {
-	"id":            "tumblr",
-	"name":          "Tumblr",
-	"description":   "Tumblr is a microblogging platform and social networking website.",
-	"type":          "rich",
-	"url":           "https://www.tumblr.com/",
-	"icon":          "http://oEmbed.ly/providers/tumblr.png",
-	"endpoints":     [
+	"id":          "tumblr",
+	"name":        "Tumblr",
+	"description": "Tumblr is a microblogging platform and social networking website.",
+	"type":        "rich",
+	"url":         "https://www.tumblr.com/",
+	"icon":        "http://oEmbed.ly/providers/tumblr.png",
+	"endpoints": [
 		"https://www.tumblr.com/oembed/1.0"
 	],
 	"regex": [
 		"#https?://(.+.)tumblr.com/.*#i",
 		"#https?://(.+.)tumblr.com/post/.*#i"
 	],
-	"parameters":    {
-		"url":    ""
+	"parameters": {
+		"url": ""
 	}
 }

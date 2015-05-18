@@ -1,18 +1,18 @@
 {
-	"id":            "kickstarter",
-	"name":          "Kickstarter",
-	"description":   "Kickstarter is a global crowdfunding platform.",
-	"type":          "rich",
-	"url":           "https://www.kickstarter.com/",
-	"icon":          "http://oEmbed.ly/providers/kickstarter.png",
-	"endpoints":     [
+	"id":          "kickstarter",
+	"name":        "Kickstarter",
+	"description": "Kickstarter is a global crowdfunding platform.",
+	"type":        "rich",
+	"url":         "https://www.kickstarter.com/",
+	"icon":        "http://oEmbed.ly/providers/kickstarter.png",
+	"endpoints": [
 		"https://www.kickstarter.com/services/oembed"
 	],
 	"regex": [
 		"#https?://kck.st/.*#i",
 		"#https?://(www.)?kickstarter.com/projects/.*#i"
 	],
-	"parameters":    {
-		"url":    ""
+	"parameters": {
+		"url": ""
 	}
 }

@@ -1,18 +1,18 @@
 {
-	"id":            "meetup",
-	"name":          "Meetup",
-	"description":   "Meetup is an online social networking portal that facilitates offline group meetings in various localities around the world.",
-	"type":          "rich",
-	"url":           "http://www.meetup.com/",
-	"icon":          "http://oEmbed.ly/providers/meetup.png",
-	"endpoints":     [
+	"id":          "meetup",
+	"name":        "Meetup",
+	"description": "Meetup is an online social networking portal that facilitates offline group meetings in various localities around the world.",
+	"type":        "rich",
+	"url":         "http://www.meetup.com/",
+	"icon":        "http://oEmbed.ly/providers/meetup.png",
+	"endpoints": [
 		"http://api.meetup.com/oembed"
 	],
 	"regex": [
 		"#https?://(www.)?meetu.ps/.*#i",
 		"#https?://(www.)?meetup.com/.*#i"
 	],
-	"parameters":    {
-		"url":    ""
+	"parameters": {
+		"url": ""
 	}
 }

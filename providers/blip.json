@@ -1,17 +1,17 @@
 {
-	"id":            "blip",
-	"name":          "Blip.tv",
-	"description":   "Blip is a media platform for web series content and also offers a dashboard for producers of original web series to distribute and monetize their productions.",
-	"type":          "video",
-	"url":           "http://blip.tv/",
-	"icon":          "http://oEmbed.ly/providers/blip.png",
-	"endpoints":     [
+	"id":          "blip",
+	"name":        "Blip.tv",
+	"description": "Blip is a media platform for web series content and also offers a dashboard for producers of original web series to distribute and monetize their productions.",
+	"type":        "video",
+	"url":         "http://blip.tv/",
+	"icon":        "http://oEmbed.ly/providers/blip.png",
+	"endpoints": [
 		"http://blip.tv/oembed/"
 	],
 	"regex": [
-		"#https?://blip.tv/.*#i",
+		"#https?://blip.tv/.*#i"
 	],
-	"parameters":    {
+	"parameters": {
 		"url": ""
 	}
 }

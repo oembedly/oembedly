@@ -1,18 +1,18 @@
 {
-	"id":            "coub",
-	"name":          "Coub",
-	"description":   "Coub is a video sharing website that allows users to create and share looped videos up to ten seconds long.",
-	"type":          "video",
-	"url":           "https://coub.com/",
-	"icon":          "http://oEmbed.ly/providers/coub.png",
-	"endpoints":     [
+	"id":          "coub",
+	"name":        "Coub",
+	"description": "Coub is a video sharing website that allows users to create and share looped videos up to ten seconds long.",
+	"type":        "video",
+	"url":         "https://coub.com/",
+	"icon":        "http://oEmbed.ly/providers/coub.png",
+	"endpoints": [
 		"https://coub.com/api/oembed.json",
 		"https://coub.com/api/oembed.xml"
 	],
 	"regex": [
-		"#https?://(www.)?coub.com/view/.*#i",
+		"#https?://(www.)?coub.com/view/.*#i"
 	],
-	"parameters":    {
-		"url":    ""
+	"parameters": {
+		"url": ""
 	}
 }

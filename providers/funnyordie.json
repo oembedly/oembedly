@@ -1,11 +1,11 @@
 {
-	"id":            "funnyordie",
-	"name":          "Funny or Die",
-	"description":   "Funny or Die is a comedy video website with original and user-generated content.",
-	"type":          "rich",
-	"url":           "http://www.funnyordie.com/",
-	"icon":          "http://oEmbed.ly/providers/funnyordie.png",
-	"endpoints":     [
+	"id":          "funnyordie",
+	"name":        "Funny or Die",
+	"description": "Funny or Die is a comedy video website with original and user-generated content.",
+	"type":        "rich",
+	"url":         "http://www.funnyordie.com/",
+	"icon":        "http://oEmbed.ly/providers/funnyordie.png",
+	"endpoints": [
 		"http://www.funnyordie.com/oembed.json",
 		"http://www.funnyordie.com/oembed.xml"
 	],

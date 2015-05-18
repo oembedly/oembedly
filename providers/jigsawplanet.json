@@ -1,17 +1,17 @@
 {
-	"id":            "jigsawplanet",
-	"name":          "Jigsaw Planet",
-	"description":   "Jigsaw Planet is an ideal place to create and playing free online jigsaw puzzles.",
-	"type":          "rich",
-	"url":           "https://jigsawplanet.com/",
-	"icon":          "http://oEmbed.ly/providers/jigsawplanet.png",
-	"endpoints":     [
+	"id":          "jigsawplanet",
+	"name":        "Jigsaw Planet",
+	"description": "Jigsaw Planet is an ideal place to create and playing free online jigsaw puzzles.",
+	"type":        "rich",
+	"url":         "https://jigsawplanet.com/",
+	"icon":        "http://oEmbed.ly/providers/jigsawplanet.png",
+	"endpoints": [
 		"https://www.jigsawplanet.com/api/oembed/game/"
 	],
 	"regex": [
-		"#https?://(www.)?jigsawplanet.com/.*#i",
+		"#https?://(www.)?jigsawplanet.com/.*#i"
 	],
-	"parameters":    {
-		"url":    ""
+	"parameters": {
+		"url": ""
 	}
 }

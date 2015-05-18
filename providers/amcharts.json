@@ -1,17 +1,17 @@
 {
-	"id":            "amcharts",
-	"name":          "amCharts",
-	"description":   "Interactive charts and maps",
-	"url":           "http://live.amcharts.com/",
-	"icon":          "http://oEmbed.ly/providers/amcharts.png",
-	"endpoints":     [
+	"id":          "amcharts",
+	"name":        "amCharts",
+	"description": "Interactive charts and maps",
+	"url":         "http://live.amcharts.com/",
+	"icon":        "http://oEmbed.ly/providers/amcharts.png",
+	"endpoints": [
 		"http://live.amcharts.com//oembed/"
 	],
 	"regex": [
-		"#https?://live.amcharts.com/.*#i",
+		"#https?://live.amcharts.com/.*#i"
 	],
-	"parameters":    {
+	"parameters": {
 		"format": "xml|json",
-		"url":    ""
+		"url": ""
 	}
 }

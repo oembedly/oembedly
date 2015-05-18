@@ -1,19 +1,19 @@
 {
-	"id":            "flickr",
-	"name":          "Flickr",
-	"description":   "Flickr is an image and video hosting website, web services suite, and online community.",
-	"type":          "photo",
-	"url":           "https://flickr.com/",
-	"icon":          "http://oEmbed.ly/providers/flickr.png",
-	"endpoints":     [
+	"id":          "flickr",
+	"name":        "Flickr",
+	"description": "Flickr is an image and video hosting website, web services suite, and online community.",
+	"type":        "photo",
+	"url":         "https://flickr.com/",
+	"icon":        "http://oEmbed.ly/providers/flickr.png",
+	"endpoints": [
 		"https://www.flickr.com/services/oembed/"
 	],
 	"regex": [
 		"#https?://(www.)?flickr.com/.*#i",
 		"#https?://flic.kr/.*#i"
 	],
-	"parameters":    {
+	"parameters": {
 		"format": "xml|json",
-		"url":    ""
+		"url": ""
 	}
 }

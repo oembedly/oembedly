@@ -1,12 +1,12 @@
 {
-	"id":            "mixcloud",
-	"name":          "Mixcloud",
-	"description":   "Mixcloud is an online music streaming service.",
-	"type":          "audio",
-	"url":           "https://www.mixcloud.com/",
-	"icon":          "http://oEmbed.ly/providers/mixcloud.png",
-	"endpoints":     [
-		"http://www.mixcloud.com/oembed",
+	"id":          "mixcloud",
+	"name":        "Mixcloud",
+	"description": "Mixcloud is an online music streaming service.",
+	"type":        "audio",
+	"url":         "https://www.mixcloud.com/",
+	"icon":        "http://oEmbed.ly/providers/mixcloud.png",
+	"endpoints": [
+		"http://www.mixcloud.com/oembed"
 	],
 	"regex": [
 		"#https?://(www.)?mixcloud.com/.*#i"

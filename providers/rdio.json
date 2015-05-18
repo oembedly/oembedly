@@ -1,11 +1,11 @@
 {
-	"id":            "rdio",
-	"name":          "Rdio",
-	"description":   "Rdio is an online music service that offers ad-supported free streaming service and ad-free subscription services.",
-	"type":          "audio",
-	"url":           "http://www.rdio.com/",
-	"icon":          "http://oEmbed.ly/providers/rdio.png",
-	"endpoints":     [
+	"id":          "rdio",
+	"name":        "Rdio",
+	"description": "Rdio is an online music service that offers ad-supported free streaming service and ad-free subscription services.",
+	"type":        "audio",
+	"url":         "http://www.rdio.com/",
+	"icon":        "http://oEmbed.ly/providers/rdio.png",
+	"endpoints": [
 		"http://www.rdio.com/api/oembed/"
 	],
 	"regex": [
@@ -13,8 +13,8 @@
 		"#https?://(www.)?rdio.com/.*#i",
 		"#https?://(www.)?rdio.com/artist/*/album/.*#i"
 	],
-	"parameters":    {
+	"parameters": {
 		"format": "xml|json",
-		"url":    ""
+		"url": ""
 	}
 }

@@ -1,11 +1,11 @@
 {
-	"id":            "vimeo",
-	"name":          "Vimeo",
-	"description":   "Vimeo is a cleanly-designed video sharing website.",
-	"type":          "video",
-	"url":           "https://vimeo.com/",
-	"icon":          "http://oEmbed.ly/providers/vimeo.png",
-	"endpoints":     [
+	"id":          "vimeo",
+	"name":        "Vimeo",
+	"description": "Vimeo is a cleanly-designed video sharing website.",
+	"type":        "video",
+	"url":         "https://vimeo.com/",
+	"icon":        "http://oEmbed.ly/providers/vimeo.png",
+	"endpoints": [
 		"https://vimeo.com/api/oembed.json",
 		"https://vimeo.com/api/oembed.xml"
 	],
@@ -15,22 +15,22 @@
 		"#https?://(.+.)?vimeo.com/channels/.*#i",
 		"#https?://(.+.)?vimeo.com/groups/*/videos/.*#i"
 	],
-	"parameters":    {
-		"url":       "",
-		"width":     "",
-		"maxwidth":  "",
-		"height":    "",
+	"parameters": {
+		"url": "",
+		"width": "",
+		"maxwidth": "",
+		"height": "",
 		"maxheight": "",
-		"byline":    "",
-		"title":     "",
-		"portrait":  "",
-		"color":     "",
-		"callback":  "",
-		"autoplay":  "",
-		"loop":      "",
+		"byline": "",
+		"title": "",
+		"portrait": "",
+		"color": "",
+		"callback": "",
+		"autoplay": "",
+		"loop": "",
 		"autopause": "",
-		"xhtml":     "",
-		"api":       "",
-		"player_id": "",
+		"xhtml": "",
+		"api": "",
+		"player_id": ""
 	}
 }

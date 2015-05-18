@@ -1,19 +1,19 @@
 {
-	"id":            "instagram",
-	"name":          "Instagram",
-	"description":   "Instagram is an online mobile photo-sharing, video-sharing and social networking service.",
-	"type":          "rich",
-	"url":           "https://instagram.com/",
-	"icon":          "http://oEmbed.ly/providers/instagram.png",
-	"endpoints":     [
+	"id":          "instagram",
+	"name":        "Instagram",
+	"description": "Instagram is an online mobile photo-sharing, video-sharing and social networking service.",
+	"type":        "rich",
+	"url":         "https://instagram.com/",
+	"icon":        "http://oEmbed.ly/providers/instagram.png",
+	"endpoints": [
 		"https://api.instagram.com/oembed"
 	],
 	"regex": [
 		"#https?://instagr.am/p/.*#i",
 		"#https?://instagram.com/p/.*#i"
 	],
-	"parameters":    {
+	"parameters": {
 		"format": "xml|json",
-		"url":    ""
+		"url": ""
 	}
 }

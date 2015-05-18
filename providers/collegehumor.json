@@ -1,11 +1,11 @@
 {
-	"id":            "collegehumor",
-	"name":          "College Humor",
-	"description":   "College Humor is a comedy website.",
-	"type":          "video",
-	"url":           "http://www.collegehumor.com/",
-	"icon":          "http://oEmbed.ly/providers/collegehumor.png",
-	"endpoints":     [
+	"id":          "collegehumor",
+	"name":        "College Humor",
+	"description": "College Humor is a comedy website.",
+	"type":        "video",
+	"url":         "http://www.collegehumor.com/",
+	"icon":        "http://oEmbed.ly/providers/collegehumor.png",
+	"endpoints": [
 		"http://www.collegehumor.com/oembed.json",
 		"http://www.collegehumor.com/oembed.xml"
 	],

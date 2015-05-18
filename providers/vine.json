@@ -1,22 +1,22 @@
 {
-	"id":            "vine",
-	"name":          "Vine",
-	"description":   "Vine is a short-form video sharing service.",
-	"type":          "video",
-	"url":           "https://vine.co/",
-	"icon":          "http://oEmbed.ly/providers/vine.png",
-	"endpoints":     [
+	"id":          "vine",
+	"name":        "Vine",
+	"description": "Vine is a short-form video sharing service.",
+	"type":        "video",
+	"url":         "https://vine.co/",
+	"icon":        "http://oEmbed.ly/providers/vine.png",
+	"endpoints": [
 		"https://vine.co/oembed.json",
 		"https://vine.co/oembed.xml"
 	],
 	"regex": [
 		"#https?://vine.co/v/.*#i"
 	],
-	"parameters":    {
-		"url":         "",
-		"id":          "",
-		"maxwidth":    "",
-		"maxheight":   "",
+	"parameters": {
+		"url": "",
+		"id": "",
+		"maxwidth": "",
+		"maxheight": "",
 		"omit_script": "true|false"
 	}
 }

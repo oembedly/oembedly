@@ -1,18 +1,18 @@
 {
-	"id":            "hulu",
-	"name":          "Hulu",
-	"description":   "Hulu is an online video service that offers hit TV shows, movies and clips.",
-	"type":          "video",
-	"url":           "https://www.hulu.com/",
-	"icon":          "http://oEmbed.ly/providers/hulu.png",
-	"endpoints":     [
+	"id":          "hulu",
+	"name":        "Hulu",
+	"description": "Hulu is an online video service that offers hit TV shows, movies and clips.",
+	"type":        "video",
+	"url":         "https://www.hulu.com/",
+	"icon":        "http://oEmbed.ly/providers/hulu.png",
+	"endpoints": [
 		"http://www.hulu.com/api/oembed.json",
 		"http://www.hulu.com/api/oembed.xml"
 	],
 	"regex": [
 		"#https?://(www.)?hulu.com/watch/.*#i"
 	],
-	"parameters":    {
+	"parameters": {
 		"url": ""
 	}
 }

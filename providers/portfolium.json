@@ -1,18 +1,18 @@
 {
-	"id":            "portfolium",
-	"name":          "Portfolium",
-	"description":   "Portfolium is a social portfolio network and showcase connecting young, eager talent with opportunity.",
-	"type":          "rich",
-	"url":           "https://www.portfolium.com/",
-	"icon":          "http://oEmbed.ly/providers/portfolium.png",
-	"endpoints":     [
+	"id":          "portfolium",
+	"name":        "Portfolium",
+	"description": "Portfolium is a social portfolio network and showcase connecting young, eager talent with opportunity.",
+	"type":        "rich",
+	"url":         "https://www.portfolium.com/",
+	"icon":        "http://oEmbed.ly/providers/portfolium.png",
+	"endpoints": [
 		"https://api.portfolium.com/oembed/"
 	],
 	"regex": [
-		"#https?://(www.)?portfolium.com/entry/.*#i",
+		"#https?://(www.)?portfolium.com/entry/.*#i"
 	],
-	"parameters":    {
+	"parameters": {
 		"format": "xml|json",
-		"url":    "",
+		"url": ""
 	}
 }

@@ -1,18 +1,18 @@
 {
-	"id":            "dailymotion",
-	"name":          "Dailymotion",
-	"description":   "Dailymotion is a video-sharing website on which users can upload, watch and share videos.",
-	"type":          "video",
-	"url":           "http://www.dailymotion.com/",
-	"icon":          "http://oEmbed.ly/providers/dailymotion.png",
-	"endpoints":     [
+	"id":          "dailymotion",
+	"name":        "Dailymotion",
+	"description": "Dailymotion is a video-sharing website on which users can upload, watch and share videos.",
+	"type":        "video",
+	"url":         "http://www.dailymotion.com/",
+	"icon":        "http://oEmbed.ly/providers/dailymotion.png",
+	"endpoints": [
 		"http://www.dailymotion.com/services/oembed"
 	],
 	"regex": [
 		"#https?://(www.)?dailymotion.com/.*#i",
 		"#https?://(www.)?dai.ly/.*#i"
 	],
-	"parameters":    {
+	"parameters": {
 		"format": "xml|json",
 		"url": ""
 	}

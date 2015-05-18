@@ -1,27 +1,27 @@
 {
-	"id":            "twitter",
-	"name":          "Twitter",
-	"description":   "Twitter is an online social networking service.",
-	"type":          "rich",
-	"url":           "https://twitter.com/",
-	"icon":          "http://oEmbed.ly/providers/twitter.png",
-	"endpoints":     [
+	"id":          "twitter",
+	"name":        "Twitter",
+	"description": "Twitter is an online social networking service.",
+	"type":        "rich",
+	"url":         "https://twitter.com/",
+	"icon":        "http://oEmbed.ly/providers/twitter.png",
+	"endpoints": [
 		"https://api.twitter.com/1/statuses/oembed.json",
 		"https://api.twitter.com/1/statuses/oembed.xml"
 	],
 	"regex": [
 		"#https?://(www.)?twitter.com/.+?/status(es)?/.*#i"
 	],
-	"parameters":    {
-		"url":         "",
-		"id":          "",
-		"align":       "left|right|center",
-		"maxwidth":    "",
-		"related":     "",
-		"hide_media":  "true|false",
+	"parameters": {
+		"url": "",
+		"id": "",
+		"align": "left|right|center",
+		"maxwidth": "",
+		"related": "",
+		"hide_media": "true|false",
 		"hide_thread": "true|false",
 		"omit_script": "true|false",
-		"hide_tweet":  "true|false",
+		"hide_tweet": "true|false",
 		"widget_type": ""
 	}
 }

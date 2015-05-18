@@ -1,17 +1,17 @@
 {
-	"id":            "smugmug",
-	"name":          "SmugMug",
-	"description":   "SmugMug is a paid photo-sharing website and image hosting service.",
-	"type":          "photo",
-	"url":           "https://www.smugmug.com/",
-	"icon":          "http://oEmbed.ly/providers/smugmug.png",
-	"endpoints":     [
+	"id":          "smugmug",
+	"name":        "SmugMug",
+	"description": "SmugMug is a paid photo-sharing website and image hosting service.",
+	"type":        "photo",
+	"url":         "https://www.smugmug.com/",
+	"icon":        "http://oEmbed.ly/providers/smugmug.png",
+	"endpoints": [
 		"https://api.smugmug.com/services/oembed/"
 	],
 	"regex": [
 		"#https?://(.+.)?smugmug.com/.*#i"
 	],
-	"parameters":    {
+	"parameters": {
 		"format": "xml|json",
 		"url": ""
 	}

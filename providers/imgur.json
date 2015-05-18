@@ -1,18 +1,18 @@
 {
-	"id":            "imgur",
-	"name":          "Imgur",
-	"description":   "Imgur is an online image hosting service.",
-	"type":          "rich",
-	"url":           "http://imgur.com/",
-	"icon":          "http://oEmbed.ly/providers/imgur.png",
-	"endpoints":     [
+	"id":          "imgur",
+	"name":        "Imgur",
+	"description": "Imgur is an online image hosting service.",
+	"type":        "rich",
+	"url":         "http://imgur.com/",
+	"icon":        "http://oEmbed.ly/providers/imgur.png",
+	"endpoints": [
 		"http://api.imgur.com/oembed.json",
 		"http://api.imgur.com/oembed.xml"
 	],
 	"regex": [
 		"#https?://(.+.)?imgur.com/.*#i"
 	],
-	"parameters":    {
-		"url":    ""
+	"parameters": {
+		"url": ""
 	}
 }
