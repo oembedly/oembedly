@@ -1,0 +1,19 @@
+{
+	"id":          "ifixit",
+	"name":        "iFixit",
+	"description": "iFixit is publishing online free repair guides for consumer electronics and gadgets.",
+	"type":        "rich",
+	"url":         "https://www.ifixit.com/",
+	"icon":        "http://oEmbed.ly/providers/ifixit.png",
+	"endpoints": [
+		"https://www.ifixit.com/Embed"
+	],
+	"regex": [
+		"#https?://(www.)?ifixit.com/Guide/View/.*#i",
+		"#https?://(www.)?ifixit.com/Teardown/View/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
