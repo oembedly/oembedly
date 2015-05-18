@@ -20,6 +20,10 @@ a:hover {
   text-decoration: underline;
 }
 
+th {
+  text-align: left;
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;

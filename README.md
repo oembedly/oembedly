@@ -39,17 +39,17 @@ json example for YouTube:
 
 ## Allowed Parameters
 
-Parameter     | Info
-------------- | -----
-id            | Provider unique id.
-name          | Provider name.
-description   | Provider description.
-type          | Provider content type. Types: link, photo, video, audio, or rich.
-url           | Provider site URL.
-icon          | Provider icon. Size: 256x256. Format: png
-endpoints     | A list of oEmbed API endpoints.
-regex         | A list of URL structures.
-parameters    | A list of allowed parameters. Some providers accept params like custom width, video autoplay ect.
+Parameter     | Description                   | More Info
+------------- | ----------------------------- | ---------
+id            | Provider unique id.           | 
+name          | Provider name.                | 
+description   | Provider description.         | 
+type          | Provider content type.        | Types: link, photo, video, audio, or rich.
+url           | Provider site URL.            | 
+icon          | Provider icon.                | Size: 256x256. Format: png
+endpoints     | A list of oEmbed endpoints.   | 
+regex         | A list of URL structures.     | 
+parameters    | A list of allowed parameters. | 
 
 ## Approval Process
 
