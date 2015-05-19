@@ -1,0 +1,19 @@
+{
+	"id":          "officialfm",
+	"name":        "Official.fm",
+	"description": "Official.fm is a website that enables artists and record labels to upload and market their music.",
+	"type":        "rich",
+	"url":         "http://www.official.fm/",
+	"icon":        "http://oEmbed.ly/providers/officialfm.png",
+	"endpoints": [
+		"http://official.fm/services/oembed.json",
+		"http://official.fm/services/oembed.xml"
+	],
+	"regex": [
+		"#https?://(www.)?official.fm/tracks/.*#i",
+		"#https?://(www.)?official.fm/playlists/.*#i"
+	],
+	"parameters": {
+		"url": ""
+	}
+}
