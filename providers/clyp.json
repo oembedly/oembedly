@@ -1,0 +1,19 @@
+{
+	"id":          "clyp",
+	"name":        "Clyp",
+	"description": "Clyp is a simple way to record, discover and share the sounds in your life with friends and family..",
+	"type":        "audio",
+	"url":         "https://clyp.it/",
+	"icon":        "http://oEmbed.ly/providers/clyp.png",
+	"endpoints": [
+		"http://api.clyp.it/oembed/"
+	],
+	"regex": [
+		"#https?://(www.)?clyp.it/.*#i",
+		"#https?://(www.)?clyp.it/playlist/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
