@@ -1,0 +1,18 @@
+{
+	"id":          "screenr",
+	"name":        "Screenr",
+	"description": "Screenr is a web-based tool that lets you create screencasts without installing any software.",
+	"type":        "video",
+	"url":         "https://www.screenr.com/",
+	"icon":        "http://oEmbed.ly/providers/screenr.png",
+	"endpoints": [
+		"http://www.screenr.com/api/oembed.json",
+		"http://www.screenr.com/api/oembed.xml"
+	],
+	"regex": [
+		"#https?://(www.)?screenr.com/.*#i"
+	],
+	"parameters": {
+		"url": ""
+	}
+}
