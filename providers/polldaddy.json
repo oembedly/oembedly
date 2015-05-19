@@ -1,0 +1,20 @@
+{
+	"id":          "polldaddy",
+	"name":        "Polldaddy",
+	"description": "Polldaddy is a web-based polls and survey tools.",
+	"type":        "rich",
+	"url":         "https://polldaddy.com/",
+	"icon":        "http://oEmbed.ly/providers/polldaddy.png",
+	"endpoints": [
+		"https://polldaddy.com/oembed/"
+	],
+	"regex": [
+		"#https?://(www.)?polldaddy.com/s/.*#i",
+		"#https?://(www.)?polldaddy.com/poll/.*#i",
+		"#https?://(www.)?polldaddy.com/ratings/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
