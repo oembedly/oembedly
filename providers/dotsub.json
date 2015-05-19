@@ -1,0 +1,20 @@
+{
+	"id":          "dotsub",
+	"name":        "DotSUB",
+	"description": "DotSUB is a browser-based platform used for subtitling and translating online videos.",
+	"type":        "video",
+	"url":         "https://dotsub.com/",
+	"icon":        "http://oEmbed.ly/providers/dotsub.png",
+	"endpoints": [
+		"http://dotsub.com/services/oembed"
+	],
+	"regex": [
+		"#https?://(www.)?dotsub.com/view/.*#i"
+	],
+	"parameters": {
+		"url": "",
+		"width": "",
+		"height": "",
+		"language": ""
+	}
+}
