@@ -1,0 +1,18 @@
+{
+	"id":          "nfbca",
+	"name":        "National Film Board of Canada",
+	"description": "National Film Board of Canada is a public film and digital media producer and distributor.",
+	"type":        "video",
+	"url":         "https://www.nfb.ca/",
+	"icon":        "http://oEmbed.ly/providers/nfbca.png",
+	"endpoints": [
+		"https://www.nfb.ca/remote/services/oembed/"
+	],
+	"regex": [
+		"#https?://(www.)?nfb.ca/film/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
