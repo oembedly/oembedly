@@ -2,7 +2,7 @@
 	"id":          "shoudio",
 	"name":        "Shoudio",
 	"description": "Shoudio is a location based audio recordings service.",
-	"type":        "righ",
+	"type":        "rich",
 	"url":         "https://shoudio.com/",
 	"icon":        "http://oEmbed.ly/providers/shoudio.png",
 	"endpoints": [
