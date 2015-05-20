@@ -1,0 +1,21 @@
+{
+	"id":          "cacoo",
+	"name":        "Cacoo",
+	"description": "Cacoo is an online drawing tool that allows users to create a variety of diagrams such as site maps, flowcharts, UML diagrams, and more.",
+	"type":        "rich",
+	"url":         "https://cacoo.com/",
+	"icon":        "http://oEmbed.ly/providers/cacoo.png",
+	"endpoints": [
+		"http://cacoo.com/oembed.json",
+		"http://cacoo.com/oembed.xml"
+	],
+	"regex": [
+		"#https?://(www.)?cacoo.com/diagrams/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": "",
+		"maxwidth": "",
+		"maxheight": ""
+	}
+}
