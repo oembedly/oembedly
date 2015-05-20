@@ -1,0 +1,19 @@
+{
+	"id":          "shoudio",
+	"name":        "Shoudio",
+	"description": "Shoudio is a location based audio recordings service.",
+	"type":        "righ",
+	"url":         "https://shoudio.com/",
+	"icon":        "http://oEmbed.ly/providers/shoudio.png",
+	"endpoints": [
+		"http://shoudio.com/api/oembed"
+	],
+	"regex": [
+		"#https?://(www.)?shoudio.com/.*#i",
+		"#https?://(www.)?shoudio.io/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
