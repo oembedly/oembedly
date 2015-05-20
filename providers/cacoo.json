@@ -13,7 +13,6 @@
 		"#https?://(www.)?cacoo.com/diagrams/.*#i"
 	],
 	"parameters": {
-		"format": "xml|json",
 		"url": "",
 		"maxwidth": "",
 		"maxheight": ""
