@@ -1,0 +1,17 @@
+{
+	"id":          "speakerdeck",
+	"name":        "Speaker Deck",
+	"description": "Speaker Deck is an online presentations tool.",
+	"type":        "rich",
+	"url":         "https://speakerdeck.com/",
+	"icon":        "http://oEmbed.ly/providers/speakerdeck.png",
+	"endpoints": [
+		"https://speakerdeck.com/oembed.json"
+	],
+	"regex": [
+		"#https?://(www.)?speakerdeck.com/*/.*#i"
+	],
+	"parameters": {
+		"url": ""
+	}
+}
