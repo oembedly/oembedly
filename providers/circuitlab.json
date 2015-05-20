@@ -1,0 +1,18 @@
+{
+	"id":          "circuitlab",
+	"name":        "Circuit Lab",
+	"description": "Circuit Lab is an in-browser schematic editor and circuit simulator.",
+	"type":        "rich",
+	"url":         "https://www.circuitlab.com/",
+	"icon":        "http://oEmbed.ly/providers/circuitlab.png",
+	"endpoints": [
+		"https://www.circuitlab.com/circuit/oembed/"
+	],
+	"regex": [
+		"#https?://(www.)?circuitlab.com/circuit/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
