@@ -1,0 +1,19 @@
+{
+	"id":          "mobypicture",
+	"name":        "Moby Picture",
+	"description": "Moby Picture is a web service enabling users to share photos, videos, text and audio.",
+	"type":        "rich",
+	"url":         "http://www.mobypicture.com/",
+	"icon":        "http://oEmbed.ly/providers/mobypicture.png",
+	"endpoints": [
+		"http://api.mobypicture.com/oEmbed"
+	],
+	"regex": [
+		"#https?://(www.)?moby.to/.*#i",
+		"#https?://(www.)?mobypicture.com/user/*/view/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
