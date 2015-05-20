@@ -1,0 +1,18 @@
+{
+	"id":          "23hq",
+	"name":        "23hq",
+	"description": "23hq allows everyone to easily share, archive and organize their photos.",
+	"type":        "photo",
+	"url":         "http://www.23hq.com/",
+	"icon":        "http://oEmbed.ly/providers/23hq.png",
+	"endpoints": [
+		"http://www.23hq.com/23/oembed"
+	],
+	"regex": [
+		"#https?://(www.)?23hq.com/*/photo/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
