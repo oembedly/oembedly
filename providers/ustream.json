@@ -1,0 +1,18 @@
+{
+	"id":          "ustream",
+	"name":        "Ustream",
+	"description": "Ustream is an online video streaming services.",
+	"type":        "video",
+	"url":         "http://www.ustream.tv/",
+	"icon":        "http://oEmbed.ly/providers/ustream.png",
+	"endpoints": [
+		"http://www.ustream.tv/oembed"
+	],
+	"regex": [
+		"#https?://(www.)?ustream.tv/.*#i",
+		"#https?://(www.)?ustream.com/.*#i"
+	],
+	"parameters": {
+		"url": ""
+	}
+}
