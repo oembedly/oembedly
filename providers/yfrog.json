@@ -1,0 +1,18 @@
+{
+	"id":          "jfrog",
+	"name":        "jfrog",
+	"description": "yfrog is an image hosting service.",
+	"type":        "rich",
+	"url":         "http://yfrog.com/",
+	"icon":        "http://oEmbed.ly/providers/yfrog.png",
+	"endpoints": [
+		"http://www.yfrog.com/api/oembed"
+	],
+	"regex": [
+		"#https?://(www.)?yfrog.us/.*#i",
+		"#https?://(www.)?yfrog.com/.*#i"
+	],
+	"parameters": {
+		"url": ""
+	}
+}
