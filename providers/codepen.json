@@ -1,0 +1,18 @@
+{
+	"id":          "codepen",
+	"name":        "CodePen",
+	"description": "CodePen is a playground for front-end development.",
+	"type":        "rich",
+	"url":         "https://codepen.io/",
+	"icon":        "http://oEmbed.ly/providers/codepen.png",
+	"endpoints": [
+		"http://codepen.io/api/oembed"
+	],
+	"regex": [
+		"#https?://(www.)codepen.io/(.+.)/pen/.*#i"
+	],
+	"parameters": {
+		"format": "json",
+		"url": ""
+	}
+}
