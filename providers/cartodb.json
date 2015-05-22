@@ -1,0 +1,17 @@
+{
+	"id":          "cartodb",
+	"name":        "cartoDB",
+	"description": "cartoDB is a cloud based mapping platform to create GIS and maps.",
+	"type":        "rich",
+	"url":         "https://cartodb.com/",
+	"icon":        "http://oEmbed.ly/providers/cartodb.png",
+	"endpoints": [
+		"https://services.cartodb.com/oembed"
+	],
+	"regex": [
+		"#(http:|https:)?//(www.)?[^/^\.]+.cartodb.com/*#i"
+	],
+	"parameters": {
+		"url": ""
+	}
+}
