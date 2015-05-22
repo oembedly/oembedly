@@ -1,6 +1,6 @@
 {
-	"id":          "jfrog",
-	"name":        "jfrog",
+	"id":          "yfrog",
+	"name":        "yfrog",
 	"description": "yfrog is an image hosting service.",
 	"type":        "rich",
 	"url":         "http://yfrog.com/",
