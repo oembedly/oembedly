@@ -1,0 +1,18 @@
+{
+	"id":          "gettyimages",
+	"name":        "Getty Images",
+	"description": "Getty Images is a stock photo agency.",
+	"type":        "rich",
+	"url":         "https://gettyimages.com/",
+	"icon":        "http://oEmbed.ly/providers/gettyimages.png",
+	"endpoints": [
+		"http://embed.gettyimages.com/oembed"
+	],
+	"regex": [
+		"#https?://(www.)?gty.im/.*#i"
+	],
+	"parameters": {
+		"url": "",
+		"caller": ""
+	}
+}
