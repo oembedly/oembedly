@@ -1,0 +1,17 @@
+{
+	"id":          "uwhisp",
+	"name":        "uWhisp",
+	"description": "uWhisp is an oral communication in the online world.",
+	"type":        "audio",
+	"url":         "https://uwhisp.com/",
+	"icon":        "http://oEmbed.ly/providers/uwhisp.png",
+	"endpoints": [
+		"https://api.uwhisp.com/2/oembed"
+	],
+	"regex": [
+		"#https?://(www.)?uwhisp.com/.*#i"
+	],
+	"parameters": {
+		"url": ""
+	}
+}
