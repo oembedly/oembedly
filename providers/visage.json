@@ -1,0 +1,18 @@
+{
+	"id":          "visage",
+	"name":        "Visage",
+	"description": "Visage is a data-driven visual content platform.",
+	"type":        "rich",
+	"url":         "http://visage.co/",
+	"icon":        "http://oEmbed.ly/providers/visage.png",
+	"endpoints": [
+		"http://gorgo.visage.co/oembed"
+	],
+	"regex": [
+		"#https?://gorgo.visage.co/chart/view/.*#i",
+		"#https?://gorgo.visage.co/chart/embed/.*#i"
+	],
+	"parameters": {
+		"url": ""
+	}
+}
