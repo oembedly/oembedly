@@ -1,0 +1,18 @@
+{
+	"id":          "audiosnaps",
+	"name":        "AudioSnaps",
+	"description": "AudioSnaps is a pictures with sound in a single JPG.",
+	"type":        "rich",
+	"url":         "https://audiosnaps.com/",
+	"icon":        "http://oEmbed.ly/providers/audiosnaps.png",
+	"endpoints": [
+		"http://audiosnaps.com/service/oembed"
+	],
+	"regex": [
+		"#https?://(www.)?audiosnaps.com/k/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
