@@ -1,0 +1,18 @@
+{
+	"id":          "jotform",
+	"name":        "JotForm",
+	"description": "JotForm is an online designing tool helping users create and publish forms.",
+	"type":        "rich",
+	"url":         "https://jotform.com/",
+	"icon":        "http://oEmbed.ly/providers/jotform.png",
+	"endpoints": [
+		"https://www.jotform.com/oembed/"
+	],
+	"regex": [
+		"#(http:|https:)?//(secure.|www.|form.)?(my)?jotform(pro|eu|z)?.(com|net|us|ca|me|co)/form/[0-9]*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
