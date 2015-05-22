@@ -1,0 +1,18 @@
+{
+	"id":          "animatron",
+	"name":        "Animatron",
+	"description": "Animatron is a cloud based app to create stunning HTML5 video animations.",
+	"type":        "video",
+	"url":         "https://www.animatron.com/",
+	"icon":        "http://oEmbed.ly/providers/animatron.png",
+	"endpoints": [
+		"http://int.animatron-test.com/oembed/json",
+		"http://int.animatron-test.com/oembed/xml"
+	],
+	"regex": [
+		"#https?://(www.)animatron.com/project/.*#i"
+	],
+	"parameters": {
+		"url": ""
+	}
+}
