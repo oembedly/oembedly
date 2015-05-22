@@ -10,7 +10,7 @@
 		"http://int.animatron-test.com/oembed/xml"
 	],
 	"regex": [
-		"#https?://(www.)animatron.com/project/.*#i"
+		"#(http:|https:)?//(www.)animatron.com/project/.*#i"
 	],
 	"parameters": {
 		"url": ""

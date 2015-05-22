@@ -9,8 +9,8 @@
 		"https://www.kickstarter.com/services/oembed"
 	],
 	"regex": [
-		"#https?://kck.st/.*#i",
-		"#https?://(www.)?kickstarter.com/projects/.*#i"
+		"#(http:|https:)?//kck.st/.*#i",
+		"#(http:|https:)?//(www.)?kickstarter.com/projects/.*#i"
 	],
 	"parameters": {
 		"url": ""

@@ -9,7 +9,7 @@
 		"http://live.amcharts.com//oembed/"
 	],
 	"regex": [
-		"#https?://live.amcharts.com/.*#i"
+		"#(http:|https:)?//live.amcharts.com/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

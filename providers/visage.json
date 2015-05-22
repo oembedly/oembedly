@@ -9,8 +9,8 @@
 		"http://gorgo.visage.co/oembed"
 	],
 	"regex": [
-		"#https?://gorgo.visage.co/chart/view/.*#i",
-		"#https?://gorgo.visage.co/chart/embed/.*#i"
+		"#(http:|https:)?//gorgo.visage.co/chart/view/.*#i",
+		"#(http:|https:)?//gorgo.visage.co/chart/embed/.*#i"
 	],
 	"parameters": {
 		"url": ""

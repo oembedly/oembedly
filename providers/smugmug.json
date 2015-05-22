@@ -9,7 +9,7 @@
 		"https://api.smugmug.com/services/oembed/"
 	],
 	"regex": [
-		"#https?://(.+.)?smugmug.com/.*#i"
+		"#(http:|https:)?//(.+.)?smugmug.com/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

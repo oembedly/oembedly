@@ -9,7 +9,7 @@
 		"https://www.nfb.ca/remote/services/oembed/"
 	],
 	"regex": [
-		"#https?://(www.)?nfb.ca/film/.*#i"
+		"#(http:|https:)?//(www.)?nfb.ca/film/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

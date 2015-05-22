@@ -10,8 +10,8 @@
 		"http://www.ted.com/talks/oembed.xml"
 	],
 	"regex": [
-		"#https?://(www.|embed.)?ted.com/talks/.*#i",
-		"#https?://(www.|embed.)?ted.com/talks/lang/.*#i"
+		"#(http:|https:)?//(www.|embed.)?ted.com/talks/.*#i",
+		"#(http:|https:)?//(www.|embed.)?ted.com/talks/lang/.*#i"
 	],
 	"parameters": {
 		"url": ""

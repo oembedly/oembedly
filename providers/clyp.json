@@ -9,8 +9,8 @@
 		"http://api.clyp.it/oembed/"
 	],
 	"regex": [
-		"#https?://(www.)?clyp.it/.*#i",
-		"#https?://(www.)?clyp.it/playlist/.*#i"
+		"#(http:|https:)?//(www.)?clyp.it/.*#i",
+		"#(http:|https:)?//(www.)?clyp.it/playlist/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

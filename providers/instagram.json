@@ -9,8 +9,8 @@
 		"https://api.instagram.com/oembed"
 	],
 	"regex": [
-		"#https?://instagr.am/p/.*#i",
-		"#https?://instagram.com/p/.*#i"
+		"#(http:|https:)?//instagr.am/p/.*#i",
+		"#(http:|https:)?//instagram.com/p/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

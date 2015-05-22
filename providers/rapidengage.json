@@ -9,7 +9,7 @@
 		"https://rapidengage.com/api/oembed"
 	],
 	"regex": [
-		"#https?://(www.)?rapidengage.com/s/.*#i"
+		"#(http:|https:)?//(www.)?rapidengage.com/s/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

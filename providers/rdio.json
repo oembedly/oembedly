@@ -9,9 +9,9 @@
 		"http://www.rdio.com/api/oembed/"
 	],
 	"regex": [
-		"#https?://rd.io/x/.*#i",
-		"#https?://(www.)?rdio.com/.*#i",
-		"#https?://(www.)?rdio.com/artist/*/album/.*#i"
+		"#(http:|https:)?//rd.io/x/.*#i",
+		"#(http:|https:)?//(www.)?rdio.com/.*#i",
+		"#(http:|https:)?//(www.)?rdio.com/artist/*/album/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

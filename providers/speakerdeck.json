@@ -9,7 +9,7 @@
 		"https://speakerdeck.com/oembed.json"
 	],
 	"regex": [
-		"#https?://(www.)?speakerdeck.com/*/.*#i"
+		"#(http:|https:)?//(www.)?speakerdeck.com/*/.*#i"
 	],
 	"parameters": {
 		"url": ""

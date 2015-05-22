@@ -10,7 +10,7 @@
 		"https://coub.com/api/oembed.xml"
 	],
 	"regex": [
-		"#https?://(www.)?coub.com/view/.*#i"
+		"#(http:|https:)?//(www.)?coub.com/view/.*#i"
 	],
 	"parameters": {
 		"url": ""

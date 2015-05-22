@@ -9,7 +9,7 @@
 		"http://revision3.com/api/oembed/"
 	],
 	"regex": [
-		"#https?://(www.)?revision3.com/.*#i"
+		"#(http:|https:)?//(www.)?revision3.com/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

@@ -9,8 +9,8 @@
 		"http://shoudio.com/api/oembed"
 	],
 	"regex": [
-		"#https?://(www.)?shoudio.com/.*#i",
-		"#https?://(www.)?shoudio.io/.*#i"
+		"#(http:|https:)?//(www.)?shoudio.com/.*#i",
+		"#(http:|https:)?//(www.)?shoudio.io/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

@@ -9,8 +9,8 @@
 		"http://www.yfrog.com/api/oembed"
 	],
 	"regex": [
-		"#https?://(www.)?yfrog.us/.*#i",
-		"#https?://(www.)?yfrog.com/.*#i"
+		"#(http:|https:)?//(www.)?yfrog.us/.*#i",
+		"#(http:|https:)?//(www.)?yfrog.com/.*#i"
 	],
 	"parameters": {
 		"url": ""

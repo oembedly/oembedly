@@ -10,8 +10,8 @@
 		"http://www.funnyordie.com/oembed.xml"
 	],
 	"regex": [
-		"#https?://(www.)?funnyordie.com/videos/.*#i",
-		"#https?://(www.)?funnyordie.com/m/.*#i"
+		"#(http:|https:)?//(www.)?funnyordie.com/videos/.*#i",
+		"#(http:|https:)?//(www.)?funnyordie.com/m/.*#i"
 	],
 	"parameters": {
 		"url": ""

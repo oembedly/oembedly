@@ -9,7 +9,7 @@
 		"https://www.playbuzz.com/api/oembed/"
 	],
 	"regex": [
-		"#https?://(www.)?playbuzz.com/.*#i"
+		"#(http:|https:)?//(www.)?playbuzz.com/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

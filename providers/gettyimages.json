@@ -9,7 +9,7 @@
 		"http://embed.gettyimages.com/oembed"
 	],
 	"regex": [
-		"#https?://(www.)?gty.im/.*#i"
+		"#(http:|https:)?//(www.)?gty.im/.*#i"
 	],
 	"parameters": {
 		"url": "",

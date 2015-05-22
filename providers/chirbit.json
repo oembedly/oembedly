@@ -10,8 +10,8 @@
 		"http://chirb.it/oembed.xml"
 	],
 	"regex": [
-		"#https?://(www.)?chirb.it/.*#i",
-		"#https?://(www.)?chirbit.com/.*#i"
+		"#(http:|https:)?//(www.)?chirb.it/.*#i",
+		"#(http:|https:)?//(www.)?chirbit.com/.*#i"
 	],
 	"parameters": {
 		"url": ""

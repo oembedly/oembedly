@@ -9,7 +9,7 @@
 		"https://www.circuitlab.com/circuit/oembed/"
 	],
 	"regex": [
-		"#https?://(www.)?circuitlab.com/circuit/.*#i"
+		"#(http:|https:)?//(www.)?circuitlab.com/circuit/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

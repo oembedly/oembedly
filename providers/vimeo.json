@@ -10,10 +10,10 @@
 		"https://vimeo.com/api/oembed.xml"
 	],
 	"regex": [
-		"#https?://(.+.)?vimeo.com/.*#i",
-		"#https?://(.+.)?vimeo.com/m/#/.*#i",
-		"#https?://(.+.)?vimeo.com/channels/.*#i",
-		"#https?://(.+.)?vimeo.com/groups/*/videos/.*#i"
+		"#(http:|https:)?//(.+.)?vimeo.com/.*#i",
+		"#(http:|https:)?//(.+.)?vimeo.com/m/#/.*#i",
+		"#(http:|https:)?//(.+.)?vimeo.com/channels/.*#i",
+		"#(http:|https:)?//(.+.)?vimeo.com/groups/*/videos/.*#i"
 	],
 	"parameters": {
 		"url": "",

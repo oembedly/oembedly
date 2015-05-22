@@ -9,7 +9,7 @@
 		"http://audiosnaps.com/service/oembed"
 	],
 	"regex": [
-		"#https?://(www.)?audiosnaps.com/k/.*#i"
+		"#(http:|https:)?//(www.)?audiosnaps.com/k/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

@@ -9,7 +9,7 @@
 		"http://blip.tv/oembed/"
 	],
 	"regex": [
-		"#https?://blip.tv/.*#i"
+		"#(http:|https:)?//blip.tv/.*#i"
 	],
 	"parameters": {
 		"url": ""

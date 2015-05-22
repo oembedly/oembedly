@@ -9,7 +9,7 @@
 		"https://www.jigsawplanet.com/api/oembed/game/"
 	],
 	"regex": [
-		"#https?://(www.)?jigsawplanet.com/.*#i"
+		"#(http:|https:)?//(www.)?jigsawplanet.com/.*#i"
 	],
 	"parameters": {
 		"url": ""

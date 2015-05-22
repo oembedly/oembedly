@@ -9,8 +9,8 @@
 		"http://animoto.com/oembeds/create",
 	],
 	"regex": [
-		"'#https?://(www.)?animoto.com/play/.*#i",
-		"'#https?://(www.)?video214.com/play/.*#i"
+		"#(http:|https:)?//(www.)?animoto.com/play/.*#i",
+		"#(http:|https:)?//(www.)?video214.com/play/.*#i"
 	],
 	"parameters": {
 		"url": ""

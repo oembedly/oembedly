@@ -9,7 +9,7 @@
 		"http://edocr.com/api/oembed"
 	],
 	"regex": [
-		"#https?://(www.)?edocr.com/docs/.*#i"
+		"#(http:|https:)?//(www.)?edocr.com/docs/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

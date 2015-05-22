@@ -9,8 +9,8 @@
 		"http://www.ustream.tv/oembed"
 	],
 	"regex": [
-		"#https?://(www.)?ustream.tv/.*#i",
-		"#https?://(www.)?ustream.com/.*#i"
+		"#(http:|https:)?//(www.)?ustream.tv/.*#i",
+		"#(http:|https:)?//(www.)?ustream.com/.*#i"
 	],
 	"parameters": {
 		"url": ""

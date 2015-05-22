@@ -9,7 +9,7 @@
 		"http://dotsub.com/services/oembed"
 	],
 	"regex": [
-		"#https?://(www.)?dotsub.com/view/.*#i"
+		"#(http:|https:)?//(www.)?dotsub.com/view/.*#i"
 	],
 	"parameters": {
 		"url": "",

@@ -9,8 +9,8 @@
 		"http://www.dailymotion.com/services/oembed"
 	],
 	"regex": [
-		"#https?://(www.)?dailymotion.com/.*#i",
-		"#https?://(www.)?dai.ly/.*#i"
+		"#(http:|https:)?//(www.)?dailymotion.com/.*#i",
+		"#(http:|https:)?//(www.)?dai.ly/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

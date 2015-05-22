@@ -10,7 +10,7 @@
 		"http://www.collegehumor.com/oembed.xml"
 	],
 	"regex": [
-		"#https?://(www.)?collegehumor.com/video/.*#i"
+		"#(http:|https:)?//(www.)?collegehumor.com/video/.*#i"
 	],
 	"parameters": {
 		"url": ""

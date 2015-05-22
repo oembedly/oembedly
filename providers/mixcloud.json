@@ -9,7 +9,7 @@
 		"http://www.mixcloud.com/oembed"
 	],
 	"regex": [
-		"#https?://(www.)?mixcloud.com/.*#i"
+		"#(http:|https:)?//(www.)?mixcloud.com/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

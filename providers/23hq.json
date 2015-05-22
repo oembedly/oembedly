@@ -9,7 +9,7 @@
 		"http://www.23hq.com/23/oembed"
 	],
 	"regex": [
-		"#https?://(www.)?23hq.com/*/photo/.*#i"
+		"#(http:|https:)?//(www.)?23hq.com/*/photo/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

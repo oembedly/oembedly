@@ -10,7 +10,7 @@
 		"http://api.imgur.com/oembed.xml"
 	],
 	"regex": [
-		"#https?://(.+.)?imgur.com/.*#i"
+		"#(http:|https:)?//(.+.)?imgur.com/.*#i"
 	],
 	"parameters": {
 		"url": ""

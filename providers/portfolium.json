@@ -9,7 +9,7 @@
 		"https://api.portfolium.com/oembed/"
 	],
 	"regex": [
-		"#https?://(www.)?portfolium.com/entry/.*#i"
+		"#(http:|https:)?//(www.)?portfolium.com/entry/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

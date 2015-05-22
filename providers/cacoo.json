@@ -10,7 +10,7 @@
 		"http://cacoo.com/oembed.xml"
 	],
 	"regex": [
-		"#https?://(www.)?cacoo.com/diagrams/.*#i"
+		"#(http:|https:)?//(www.)?cacoo.com/diagrams/.*#i"
 	],
 	"parameters": {
 		"url": "",

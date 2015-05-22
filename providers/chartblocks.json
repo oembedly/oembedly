@@ -9,7 +9,7 @@
 		"http://embed.chartblocks.com/1.0/oembed"
 	],
 	"regex": [
-		"#https?://public.chartblocks.com/c/.*#i"
+		"#(http:|https:)?//public.chartblocks.com/c/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

@@ -10,7 +10,7 @@
 		"http://www.screenr.com/api/oembed.xml"
 	],
 	"regex": [
-		"#https?://(www.)?screenr.com/.*#i"
+		"#(http:|https:)?//(www.)?screenr.com/.*#i"
 	],
 	"parameters": {
 		"url": ""

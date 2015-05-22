@@ -9,7 +9,7 @@
 		"https://api.present.me/v1/oEmbed"
 	],
 	"regex": [
-		"#https?://(www.)?present.me/view/.*#i"
+		"#(http:|https:)?//(www.)?present.me/view/.*#i"
 	],
 	"parameters": {
 		"url": ""

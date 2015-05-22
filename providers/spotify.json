@@ -9,9 +9,8 @@
 		"https://embed.spotify.com/oembed/"
 	],
 	"regex": [
-		"#https?://spoti.fi/.*#i",
-		"#https?://play.spotify.com/.*#i",
-		"#https?://open.spotify.com/.*#i"
+		"#(http:|https:)?//spoti.fi/.*#i",
+		"#(http:|https:)?//(play|open).spotify.com/.*#i",
 	],
 	"parameters": {
 		"format": "xml|json",

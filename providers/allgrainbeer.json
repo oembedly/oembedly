@@ -9,7 +9,7 @@
 		"http://allgrain.beer/recipes/oembed/"
 	],
 	"regex": [
-		"#https?://(www.)?allgrain.beer/recipes/.*#i"
+		"#(http:|https:)?//(www.)?allgrain.beer/recipes/.*#i"
 	],
 	"parameters": {
 		"url": ""

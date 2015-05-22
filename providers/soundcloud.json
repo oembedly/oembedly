@@ -9,7 +9,7 @@
 		"http://soundcloud.com/oembed"
 	],
 	"regex": [
-		"#https?://(www.)?soundcloud.com/.*#i"
+		"#(http:|https:)?//(www.)?soundcloud.com/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

@@ -10,7 +10,7 @@
 		"https://vine.co/oembed.xml"
 	],
 	"regex": [
-		"#https?://vine.co/v/.*#i"
+		"#(http:|https:)?//vine.co/v/.*#i"
 	],
 	"parameters": {
 		"url": "",

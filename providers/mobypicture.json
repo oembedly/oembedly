@@ -9,8 +9,8 @@
 		"http://api.mobypicture.com/oEmbed"
 	],
 	"regex": [
-		"#https?://(www.)?moby.to/.*#i",
-		"#https?://(www.)?mobypicture.com/user/*/view/.*#i"
+		"#(http:|https:)?//(www.)?moby.to/.*#i",
+		"#(http:|https:)?//(www.)?mobypicture.com/user/*/view/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

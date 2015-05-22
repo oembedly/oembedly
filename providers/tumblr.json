@@ -9,8 +9,8 @@
 		"https://www.tumblr.com/oembed/1.0"
 	],
 	"regex": [
-		"#https?://(.+.)tumblr.com/.*#i",
-		"#https?://(.+.)tumblr.com/post/.*#i"
+		"#(http:|https:)?//(.+.)?tumblr.com/.*#i",
+		"#(http:|https:)?//(.+.)?tumblr.com/post/.*#i"
 	],
 	"parameters": {
 		"url": ""

@@ -10,8 +10,8 @@
 		"http://official.fm/services/oembed.xml"
 	],
 	"regex": [
-		"#https?://(www.)?official.fm/tracks/.*#i",
-		"#https?://(www.)?official.fm/playlists/.*#i"
+		"#(http:|https:)?//(www.)?official.fm/tracks/.*#i",
+		"#(http:|https:)?//(www.)?official.fm/playlists/.*#i"
 	],
 	"parameters": {
 		"url": ""

@@ -9,9 +9,9 @@
 		"http://www.polleverywhere.com/services/oembed"
 	],
 	"regex": [
-		"#https?://(www.)?polleverywhere.com/polls/.*#i",
-		"#https?://(www.)?polleverywhere.com/multiple_choice_polls/.*#i",
-		"#https?://(www.)?polleverywhere.com/free_text_polls/.*#i"
+		"#(http:|https:)?//(www.)?polleverywhere.com/polls/.*#i",
+		"#(http:|https:)?//(www.)?polleverywhere.com/multiple_choice_polls/.*#i",
+		"#(http:|https:)?//(www.)?polleverywhere.com/free_text_polls/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

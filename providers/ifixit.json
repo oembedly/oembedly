@@ -9,8 +9,8 @@
 		"https://www.ifixit.com/Embed"
 	],
 	"regex": [
-		"#https?://(www.)?ifixit.com/Guide/View/.*#i",
-		"#https?://(www.)?ifixit.com/Teardown/View/.*#i"
+		"#(http:|https:)?//(www.)?ifixit.com/Guide/View/.*#i",
+		"#(http:|https:)?//(www.)?ifixit.com/Teardown/View/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

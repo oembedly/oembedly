@@ -9,8 +9,8 @@
 		"https://www.flickr.com/services/oembed/"
 	],
 	"regex": [
-		"#https?://(www.)?flickr.com/.*#i",
-		"#https?://flic.kr/.*#i"
+		"#(http:|https:)?//(www.)?flickr.com/.*#i",
+		"#(http:|https:)?//flic.kr/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

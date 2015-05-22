@@ -9,9 +9,9 @@
 		"https://polldaddy.com/oembed/"
 	],
 	"regex": [
-		"#https?://(www.)?polldaddy.com/s/.*#i",
-		"#https?://(www.)?polldaddy.com/poll/.*#i",
-		"#https?://(www.)?polldaddy.com/ratings/.*#i"
+		"#(http:|https:)?//(www.)?polldaddy.com/s/.*#i",
+		"#(http:|https:)?//(www.)?polldaddy.com/poll/.*#i",
+		"#(http:|https:)?//(www.)?polldaddy.com/ratings/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",
