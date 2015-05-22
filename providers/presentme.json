@@ -1,0 +1,17 @@
+{
+	"id":          "presentme",
+	"name":        "Present.me",
+	"description": "Present.me is a cloud-based presentation platform.",
+	"type":        "rich",
+	"url":         "https://present.me/",
+	"icon":        "http://oEmbed.ly/providers/presentme.png",
+	"endpoints": [
+		"https://api.present.me/v1/oEmbed"
+	],
+	"regex": [
+		"#https?://(www.)?present.me/view/.*#i"
+	],
+	"parameters": {
+		"url": ""
+	}
+}
