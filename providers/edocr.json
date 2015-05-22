@@ -1,0 +1,18 @@
+{
+	"id":          "edocr",
+	"name":        "edocr",
+	"description": "edocr is a document sharing platform for lead generation.",
+	"type":        "rich",
+	"url":         "http://www.edocr.com/",
+	"icon":        "http://oEmbed.ly/providers/edocr.png",
+	"endpoints": [
+		"http://edocr.com/api/oembed"
+	],
+	"regex": [
+		"#https?://(www.)?edocr.com/docs/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
