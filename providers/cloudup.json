@@ -1,0 +1,17 @@
+{
+	"id":          "cloudup",
+	"name":        "CloudUp",
+	"description": "CloudUp is a file sharing platform.",
+	"type":        "rich",
+	"url":         "https://cloudup.com/",
+	"icon":        "http://oEmbed.ly/providers/cloudup.png",
+	"endpoints": [
+		"https://cloudup.com/oembed"
+	],
+	"regex": [
+		"#(http:|https:)?//(www.)?cloudup.com/.*#i"
+	],
+	"parameters": {
+		"url": ""
+	}
+}
