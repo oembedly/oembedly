@@ -1,0 +1,17 @@
+{
+	"id":          "allgrainbeer",
+	"name":        "All Grain Beer",
+	"description": "All Grain Beer is a cloud-based presentation platform.",
+	"type":        "rich",
+	"url":         "http://allgrain.beer/",
+	"icon":        "http://oEmbed.ly/providers/allgrainbeer.png",
+	"endpoints": [
+		"http://allgrain.beer/recipes/oembed/"
+	],
+	"regex": [
+		"#https?://(www.)?allgrain.beer/recipes/.*#i"
+	],
+	"parameters": {
+		"url": ""
+	}
+}
