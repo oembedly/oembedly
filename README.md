@@ -21,13 +21,13 @@ json example for YouTube:
 		"https://www.youtube.com/oembed/"
 	],
 	"regex": [
-		"#https?://(www.)?youtu.be/.*#i",
-		"#https?://(www.)?youtube.com/v/.*#i",
-		"#https?://(www.)?youtube.com/embed/.*#i",
-		"#https?://(www.)?youtube.com/gif.*#i",
-		"#https?://(www.)?youtube.com/watch.*#i",
-		"#https?://(www.)?youtube.com/profile.*#i",
-		"#https?://(www.)?youtube.com/playlist.*#i"
+		"#(http:|https:)?//(www.)?youtu.be/.*#i",
+		"#(http:|https:)?//(www.)?youtube.com/v/.*#i",
+		"#(http:|https:)?//(www.)?youtube.com/embed/.*#i",
+		"#(http:|https:)?//(www.)?youtube.com/gif.*#i",
+		"#(http:|https:)?//(www.)?youtube.com/watch.*#i",
+		"#(http:|https:)?//(www.)?youtube.com/profile.*#i",
+		"#(http:|https:)?//(www.)?youtube.com/playlist.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",
