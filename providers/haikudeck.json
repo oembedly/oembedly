@@ -1,0 +1,19 @@
+{
+	"id":          "haikudeck",
+	"name":        "Haiku Deck",
+	"description": "Haiku Deck is an online presentations and slideshows creation platform.",
+	"type":        "rich",
+	"url":         "https://haikudeck.com/",
+	"icon":        "http://oEmbed.ly/providers/haikudeck.png",
+	"endpoints": [
+		"https://www.haikudeck.com/oembed"
+	],
+	"regex": [
+		"#(http:|https:)?//(www.)?haikudeck.com/.*#i",
+		"#(http:|https:)?//(www.)?haikudeck.com/e/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
