@@ -1,0 +1,19 @@
+{
+	"id":          "mixbit",
+	"name":        "MixBit",
+	"description": "MixBit is an app that helps people create dynamic videos together.",
+	"type":        "video",
+	"url":         "https://mixbit.com/",
+	"icon":        "http://oEmbed.ly/providers/mixbit.png",
+	"endpoints": [
+		"https://a.mixbit.com/oembed"
+	],
+	"regex": [
+		"#(http:|https:)?//(www.)?mixbit.com/v/.*#i",
+		"#(http:|https:)?//(www.)?mixbit.com/embed/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
