@@ -1,0 +1,18 @@
+{
+	"id":          "tutv",
+	"name":        "Tu.tv",
+	"description": "Tu.tv is an online video publishing, enabling users and corporations to create their company and mobile TV channels.",
+	"type":        "video",
+	"url":         "http://tu.tv/",
+	"icon":        "http://oEmbed.ly/providers/tutv.png",
+	"endpoints": [
+		"http://tu.tv/oembed/"
+	],
+	"regex": [
+		"#(http:|https:)?//(www.)?tu.tv/videos/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
