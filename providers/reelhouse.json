@@ -1,0 +1,19 @@
+{
+	"id":          "reelhouse",
+	"name":        "Reelhouse",
+	"description": "Reelhouse is a direct-to-consumer distribution community designed specifically for superior digital film experiences.",
+	"type":        "video",
+	"url":         "https://www.reelhouse.org/",
+	"icon":        "http://oEmbed.ly/providers/reelhouse.png",
+	"endpoints": [
+		"https://www.reelhouse.org/api/oembed"
+	],
+	"regex": [
+		"#(http:|https:)?//(www.)?reelhouse.org/.*#i"
+	],
+	"parameters": {
+		"url": "",
+		"maxwidth": "",
+		"maxheight": ""
+	}
+}
