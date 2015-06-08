@@ -1,0 +1,18 @@
+{
+	"id":          "ifttt",
+	"name":        "IFTTT",
+	"description": "iFixit lets you create powerful connections with one simple statement — if this then that.",
+	"type":        "rich",
+	"url":         "http://www.ifttt.com/",
+	"icon":        "http://oEmbed.ly/providers/ifttt.png",
+	"endpoints": [
+		"https://www.ifttt.com/oembed/"
+	],
+	"regex": [
+		"#(http:|https:)?//(www.)?ifttt.com/recipes/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
