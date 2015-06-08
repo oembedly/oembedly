@@ -9,7 +9,7 @@
 		"http://api.generatewp.com/v1/oembed/"
 	],
 	"regex": [
-		"#(http:|https:)?//(www.)?generatewp.com/snippet/.*#i",
+		"#(http:|https:)?//(www.)?generatewp.com/snippet/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",

@@ -6,7 +6,7 @@
 	"url":         "https://www.animoto.com/",
 	"icon":        "http://oEmbed.ly/providers/animoto.png",
 	"endpoints": [
-		"http://animoto.com/oembeds/create",
+		"http://animoto.com/oembeds/create"
 	],
 	"regex": [
 		"#(http:|https:)?//(www.)?animoto.com/play/.*#i",

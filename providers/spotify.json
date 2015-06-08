@@ -10,7 +10,7 @@
 	],
 	"regex": [
 		"#(http:|https:)?//spoti.fi/.*#i",
-		"#(http:|https:)?//(play|open).spotify.com/.*#i",
+		"#(http:|https:)?//(play|open).spotify.com/.*#i"
 	],
 	"parameters": {
 		"format": "xml|json",
