@@ -9,7 +9,7 @@
 		"https://services.cartodb.com/oembed"
 	],
 	"regex": [
-		"#(http:|https:)?//(www.)?[^/^\.]+.cartodb.com/*#i"
+		"#(http:|https:)?//(www.)?cartodb.com/*#i"
 	],
 	"parameters": {
 		"url": ""
