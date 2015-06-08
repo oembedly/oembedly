@@ -9,16 +9,22 @@ $(document).ready( function() {
 			$.each(json, function (i, provider_name) {
 				$("ul.providers-list").append(
 					$("<li></li>").addClass("provider").append(
-						$("<img>",{src: "providers/"+provider_name+'.png'})
-					).append(
-						$("<p></p>").addClass(provider_name).append(
+						$("<a></a>").addClass(provider_name).append(
 							function () {
 								$.ajax({
 									url      : "providers/"+provider_name+".json",
 									dataType : "text",
 									success  : function ( info ) {
 										var json = $.parseJSON( info );
-										$("."+provider_name).html(json.name);
+										$("."+provider_name).append(
+											$("<img>",{src: "providers/"+provider_name+".png"})
+										).append(
+											$("<p></p>").addClass(provider_name).html(json.name)
+										);
+										$("a."+provider_name).attr({
+											href: "providers/"+provider_name+".json",
+											title: json.name
+										})
 									}
 								});
 							}
