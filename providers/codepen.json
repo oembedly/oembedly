@@ -9,7 +9,7 @@
 		"http://codepen.io/api/oembed"
 	],
 	"regex": [
-		"#(http:|https:)?//(www.)codepen.io/(.+.)/pen/.*#i"
+		"#(http:|https:)?//(www.)?codepen.io/(.+.)/pen/.*#i"
 	],
 	"parameters": {
 		"format": "json",
