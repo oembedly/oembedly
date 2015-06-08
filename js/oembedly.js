@@ -6,10 +6,23 @@ $(document).ready( function() {
 		success  : function ( data ) {
 
 			var json = $.parseJSON( data );
-			$.each(json, function (i, providers_list) {
+			$.each(json, function (i, provider_name) {
 				$("ul.providers-list").append(
 					$("<li></li>").addClass("provider").append(
-						$("<img>",{src: "providers/"+providers_list+'.png'})
+						$("<img>",{src: "providers/"+provider_name+'.png'})
+					).append(
+						$("<p></p>").addClass(provider_name).append(
+							function () {
+								$.ajax({
+									url      : "providers/"+provider_name+".json",
+									dataType : "text",
+									success  : function ( info ) {
+										var json = $.parseJSON( info );
+										$("."+provider_name).html(json.name);
+									}
+								});
+							}
+						)
 					)
 				)
 			});

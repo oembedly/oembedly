@@ -217,6 +217,7 @@ th {
 
 .providers-list {
   list-style: none;
+  padding-bottom: 1em;
 }
 
 .provider {
@@ -229,12 +230,13 @@ th {
 
 .provider img {
   width: 100px;
-  padding: 2rem 1rem 0;
+  padding: 1rem 1rem 0;
   border-radius: 5px;
 }
 
 .providers p {
   clear: both;
+  margin: 0 auto;
 }
 
 .site-footer {
