@@ -1,0 +1,26 @@
+{
+	"id":          "wistia",
+	"name":        "Wistia",
+	"description": "Wistia is an internet video hosting and analytics company.",
+	"type":        "video",
+	"url":         "http://wistia.com/",
+	"icon":        "http://oEmbed.ly/providers/wistia.png",
+	"endpoints": [
+		"http://fast.wistia.com/oembed"
+	],
+	"regex": [
+		"#(http:|https:)?//(.+.)?wi.st/(medias|embed)/.*#i",
+		"#(http:|https:)?//(.+.)?wistia.com/(medias|embed)/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": "",
+		"callback": "",
+		"embedType": "iframe|api|seo|popover|playlist_iframe|playlist_api|open_graph_tags",
+		"handle": "wistiaEmbed|wistiaPlaylist",
+		"width": "",
+		"height": "",
+		"popoverHeight": "",
+		"popoverWidth": ""
+	}
+}
