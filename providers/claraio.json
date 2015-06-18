@@ -1,0 +1,18 @@
+{
+	"id":          "claraio",
+	"name":        "Clara.io",
+	"description": "Clara.io is an online 3D modeling, rendering and publishing tool.",
+	"type":        "rich",
+	"url":         "https://clara.io/",
+	"icon":        "http://oEmbed.ly/providers/claraio.png",
+	"endpoints": [
+		"https://clara.io/api/oembed"
+	],
+	"regex": [
+		"#(http:|https:)?//(www.)?clara.io/(view|embed)/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
