@@ -1,0 +1,18 @@
+{
+	"id":          "roojoom",
+	"name":        "Roojoom",
+	"description": "Roojoom is a content marketing platform that helps companies turn content into revenue.",
+	"type":        "rich",
+	"url":         "http://www.roojoom.com/",
+	"icon":        "http://oEmbed.ly/providers/roojoom.png",
+	"endpoints": [
+		"http://tracks.roojoom.com/oembed"
+	],
+	"regex": [
+		"#(http:|https:)?//(www.|tracks.)?roojoom.com/r/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
