@@ -205,7 +205,7 @@ th {
 }
 
 .providers {
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   background-color: #fd6;
   color: #000;
   text-align: center;
@@ -215,9 +215,20 @@ th {
   margin-bottom: 0;
 }
 
+.providers p {
+  clear: both;
+  margin: 0 auto;
+  line-height: 1;
+  height: 2em;
+}
+
 .providers-list {
   list-style: none;
   padding-bottom: 1em;
+}
+
+.providers-list a {
+  color: #000;
 }
 
 .provider {
@@ -239,18 +250,6 @@ th {
 .provider img:hover {
   transform: scale(2.5);
   box-shadow: 0 0 5px #000;
-}
-
-.providers p {
-  clear: both;
-  margin: 0 auto;
-  line-height: 1;
-  height: 2em;
-}
-
-.providers a {
-  color: #000;
-  margin: 0 auto;
 }
 
 .site-footer {
