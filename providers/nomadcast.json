@@ -1,0 +1,19 @@
+{
+	"id":          "nomadcast",
+	"name":        "NomadCast",
+	"description": "NomadCast is a mobile video streaming app.",
+	"type":        "video",
+	"url":         "https://www.nomadcast.com/",
+	"icon":        "http://oEmbed.ly/providers/nomadcast.png",
+	"endpoints": [
+		"https://www.nomadcast.com/oembed.json",
+		"https://www.nomadcast.com/oembed.xml"
+	],
+	"regex": [
+		"#(http:|https:)?//(www.)?nomadcast.com/(stream|recording)/.*#i"
+	],
+	"parameters": {
+		"format": "xml|json",
+		"url": ""
+	}
+}
