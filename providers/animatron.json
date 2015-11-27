@@ -6,11 +6,13 @@
 	"url":         "https://www.animatron.com/",
 	"icon":        "http://oEmbed.ly/providers/animatron.png",
 	"endpoints": [
-		"https://animatron.com/int/oembed/json",
-		"https://animatron.com/int/oembed/xml"
+		"https://animatron.com/oembed/json",
+		"https://animatron.com/oembed/xml",
+		"https://www.animatron.com/oembed/json",
+		"https://www.animatron.com/oembed/xml"
 	],
 	"regex": [
-		"#(http:|https:)?//(www.)animatron.com/project/.*#i",
+		"#(http:|https:)?//(www.)?animatron.com/project/.*#i",
 		"#(http:|https:)?//clips.animatron.com/.*#i"
 	],
 	"parameters": {
